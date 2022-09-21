@@ -1,0 +1,20 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;300;400;500&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+}
+
+:root{
+    --primary-color:#38abc9;
+    --secondary-color:#f4e6f6;
+}
+
+body {
+    font-family:'Gentium Book', Poppins, sans-serif;
+    font-weight: 300;
+}
+
+/* headings and logo */

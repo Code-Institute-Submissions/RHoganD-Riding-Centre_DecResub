@@ -50,9 +50,11 @@ h1{
 }
 
 h2{
-    font-family: 'Poppins';
+    font-family: 'Gentium Book Basic';
     text-align: center;
-}
+    font-weight: 600;
+    font-size: 2rem;
+  }
 
 p {
     color: var(--font-light);
@@ -102,7 +104,8 @@ nav {
      position: relative;
      align-content: center;
      background-color: var(--secondary-color);
-      }
+     border-radius: 5px solid;
+     }
 
     #hero-img{
      width:  100%;
@@ -140,11 +143,51 @@ nav {
       .about-content{
       text-align: center;
       }
-      .about-content h2{
-        font-weight: 600;
-        font-size: 2rem;
-        font-family: 'Gentium Book Basic';
-
-      }
-       
+      .about-content span{
+        font-style: italic;
+        font-family: Gentium Book Basi;
+        font-size: 1.3em;
+         }
         
+    
+    /* Footer section */
+    footer {
+      height: 150px;         
+      background-color: #38abc9;
+        }
+
+    .copyright {
+      margin-top: 20px;
+      text-align: center;  
+      }
+
+    .copyright h3 {
+      font-family: 'sans-serif'; 
+      font-size: 16px; 
+      padding:10px 0 0 1px;
+      font-weight:400;
+      color: #fff;
+       }
+
+      .copyright p{
+      font-size: 13px;
+      padding: 1px;
+      color: #fff;
+       }
+
+      .social-networks {
+       text-align:center;
+       margin-top: 10px;             
+      }
+
+     .social-networks > li {
+       display: inline;       
+     }
+
+     .social-networks i {
+      font-size: 135%;
+      margin: 1%;
+      padding: 1%;
+      color: #f7f6f6;
+    }
+/* End of the footer section*/

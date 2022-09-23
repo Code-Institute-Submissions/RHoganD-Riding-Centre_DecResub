@@ -4,17 +4,110 @@
 *{
 margin: 0;
 padding: 0;
-scroll-behavior: smooth;
 }
 
+/* Global Styles */
 :root{
     --primary-color:#38abc9;
     --secondary-color:#f4e6f6;
+    --font-light: #808080;
 }
 
 body {
     font-family:'Gentium Book', Poppins, sans-serif;
-    font-weight: 300;
+    /*font-weight: 300;*/
+    display: flex;
+    /*align-items:  center;
+    justify-content: center;
+    padding: 3% 0;*/
 }
 
-/* headings and logo */
+#header { 
+    position: sticky; top: 0;
+    display: flex;
+    background-color: var(--primary-color);
+    height: 100px;
+    width: 100%;
+  }
+  
+  #header-img { 
+    height: 100px;
+    width: 100px;
+
+  }
+
+h1{
+    font-family: Gentium Book Basic; 
+    color: #fff;
+    letter-spacing: 3px;
+    float: left;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 2px;
+    width: 50%;
+    margin-bottom: 1em;
+}
+
+h2{
+    font-family: Poppins;
+    text-align: center;
+}
+
+p {
+    color: var(--font-light);
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 1.125em;
+}
+
+/*Navigation links*/
+
+nav {
+    color: white;
+    float: right;
+    width: 50%;
+    text-align:right;
+}
+
+.navbar ul {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .navbar ul *{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    margin:0 10px;
+  }
+  
+  .navbar li a{
+    color: #fff;
+  }
+  .navbar a{
+    text-decoration: none;
+  }
+
+.navbar a:hover{
+    Color: var(--font-light);
+    transition: ease-in 200ms;
+     }
+
+     /* hero image & booking button */
+
+     #hero-section{
+        height: 700px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: var(--secondary-color);
+        }
+
+        #hero-img{
+
+
+        }

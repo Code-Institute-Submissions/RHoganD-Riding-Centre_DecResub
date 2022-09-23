@@ -10,11 +10,13 @@
     <title>Riding Centre</title>
 </head>
 <body>
-     <header>
-        <!---Navigation menu & logo-->
+    <header id="header">
+      <img src="assets/images/logo.png" id="header-logo">
+      <h1 id="title">Riding Centre</h1>
+      <div class="logo">
+        </div> 
 <nav>
-    <div class="logo"><a href="index.html">Riding Centre</a></div>
-    <div class="navbar-links">
+      <div class="navbar">
         <ul>
           <li class="navlink"><a href="index.html">Home</a></li>
           <li class="navlink"><a href="gallery.html">About</a></li>
@@ -24,31 +26,80 @@
     </nav>
   </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="homepage">
-        <div class="hero-container">
-          <h1></h1>
-          <a href="booking.html" class="book-btn">Book Now</a>
-        </div>
-      </section>
-
-      <!-- About us Section -->
+<!--hero image and booking button-->
+  <section id="hero-section">
+    <div id="hero-img"></div>
+    <div id="booking">
+        <a href="booking.html" class="book-btn">Book Now <i class="fa-solid fa-calendar-days"></i></a>
+    
+    </div>
+        </section>  
+        
+        <!-- About us Section -->
   <section class="about" id="about-section">
     <div class="about-content">
         <h1>Welcome to The Riding Centre</h1>
-        <p>The Horse Riding Centre was established in 2021, is a family owned and run British Horse Society approved riding school. Situated in Helensburgh overlooking the Firth of Clyde. We offer riding tuition for a wide range of ages and abilities and have a built indoor arena which allows us to function regardless of the Coast weather. Horses generate an empathy with humans that other animals do not. While many animals are well known for being therapeutic, horses are particularly well known for their ability to foster change.
+        <p>The Horse Riding Centre was established in 2021,  We are a friendly riding centre based just outside the City
+          Situated in Helensburgh overlooking the Firth of Clyde.
+          We cater for children from 10 years upwards and adults of all ages. 
+          We cater for complete beginners up to the more advanced rider. 
+          Also for the once in a lifetime experience or for the weekly rider
+          We have a built indoor arena which allows us to function regardless of the Coast weather.
+          
+          Horses generate an empathy with humans that other animals do not.
+          While many animals are well known for being therapeutic, horses are particularly well known for their ability to foster change.    
         </p>
+
         </div>
 
-    <div class="orientation" id="videos">
-        <h2>Not sure where to start?</h2>
+<!--Info and video section-->
+<div>
+  <h2>Not sure where to start?</h2>
+</div>
+
+        <div class="video-container">
+          <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fV7kuUrjutY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    </div>    
+      
+    <!--footer section & copyright-->
 
+    <footer>
+      <div class="copyright">
+      <h3>Horse Riding centre | Code Institute Project 1</h3>
+       <p>Copyright © All Rights Reserved | 30 September 2022</p>
+       
+      </div>
 
+      <div>
+          
+      <ul class="social-networks">
+      <li> 
+          <a href="https://facebook.com" target="_blank" rel="noopener" 
+          aria-label="Visit our facebook page (opens in a new tab"><i class="fa-brands fa-facebook"></i></a>
+      </li>
 
+      <li> 
+          <a href="https://twitter.com" target="_blank" rel="noopener" 
+          aria-label="Visit our twitter page (opens in a new tab"><i class="fa-brands fa-twitter"></i></a>
+      </li>
+      <li> 
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener" 
+          aria-label="Visit our youtube page (opens in a new tab"><i class="fa-brands fa-youtube"></i></a>
+      </li>
+      <li> 
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" 
+          aria-label="Visit our instagram page (opens in a new tab"><i class="fa-brands fa-instagram"></i></a>
+      </li>
+      </ul>
+  </div>
+  </footer>
 
-
-
+<!--font awesome script-->
+<script src="https://kit.fontawesome.com/fc632b9fc3.js" crossorigin="anonymous"></script>
+    
 
     
 </body>

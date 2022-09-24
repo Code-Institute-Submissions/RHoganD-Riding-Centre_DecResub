@@ -15,12 +15,7 @@ padding: 0;
 
 body {
     font-family:'Gentium Book', Poppins, sans-serif;
-    /*font-weight: 300;
-    display: flex;
-    /*align-items:  center;
-    justify-content: center;
-    padding: 3% 0;*/
-}
+   }
 
 #header { 
     position: sticky; top: 0;
@@ -28,12 +23,12 @@ body {
     background-color: var(--primary-color);
     height: 100px;
     width: 100%;
+    z-index: 100; 
   }
   
   #header-img { 
     height: 100px;
     width: 100px;
-
   }
 
 h1{
@@ -105,6 +100,7 @@ nav {
      align-content: center;
      background-color: var(--secondary-color);
      border-radius: 5px solid;
+     flex-wrap: wrap;
      }
 
     #hero-img{
@@ -113,7 +109,8 @@ nav {
      background-image: url('../images/frontImage.png');
      background-size:cover;
      background-repeat: no-repeat;
-     float: right;  
+     float: right; 
+     
        }
 
        /*Styling the booking button*/
@@ -152,8 +149,6 @@ nav {
         font-size: 1.3em;
          }
         
-
-
 
 /*Booking page section*/
 .container-booking{
@@ -307,6 +302,45 @@ nav {
     }
 /* End of the booking page section*/
 
+/*Booking confirmaiton page*/
+
+.bconfirm{
+  width: 100%;
+  height: 600px;
+}
+.bconfirm p{
+text-align: center;
+}
+
+.book-confirm{
+text-align: left;
+width: 500px;
+padding-left: 10px;
+}
+
+.book-confirm p{
+font-family: 'Poppins';
+text-align: left;
+font-weight: 300;
+margin: 0;
+padding: 0;
+font-size: 14px;
+}
+
+.book-confirm h3{
+  text-align: left;
+  font-weight: 400;
+  font-family: 'Gentium Book Basic';
+  font-display: block;
+  } 
+
+
+
+
+
+
+
+
 /*=======================================*/
 
 /*Styling Gallery of  Memories*/
@@ -332,11 +366,12 @@ nav {
        }
 
     
-   /* animates zoom effect 
+   /*animates zoom effect */
    .images-gallery{
     animation-name: images-galley-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards; 
+    transition: ease 0.1ms;
    }
    @keyframes images-galley-zoom {
     from{
@@ -345,42 +380,11 @@ nav {
     to{
         transform: scale(1.1);
     }
-}*/
+  }
 
-/* Creating the rotation effect */
-   .images-gallery img:hover{  
-    transform: scale(0.8) rotate(-15deg);
-    border-radius: 20px;
-    box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
-   }
+/*End of the Gallery page
 
-    .cover-img{
-      width: 100%;
-      height: 100vh;
-      background: rgba(0,0,0,0.9);
-      position: fixed;
-      top: 0;
-      left: 0;
-      display: none;        
-      align-items: center;
-      justify-content: center;
-      z-index: 100;
-      }
-      
-      .cover-img img{
-      width: 90%;
-      max-width: 500px;
-      }
-      
-      .cover-img span{
-      position: absolute;
-      top: 5%;
-      right: 5%;
-      font-size: 30px;
-      color: #fff;
-      cursor: pointer;
-      }
-      /*End of gallery page style*/
+
 /*============================================*/
  /*Style for the Contact page */
 
@@ -390,22 +394,23 @@ nav {
   margin: 0 auto;
   }
 
- .get-in-contact, .img-get-contact{
-  width: 50%;
-  padding: 5%;
- 
-  }
+  #wrap h2{
+    color: var(--font-light);
+    font-weight: 700;
+    font-family: 'Gentium Book Basic';
+      }
+    
+    #wrap h2 strong{
+    font-weight: 400;
+    color: #000;
+    }
 
-
- #wrap h2{
-  font-size: 2rem;
-  font-family: 'Gentium Book Basic';
-  text-align: center;
-  padding: 1%;
- }
-  .get-in-contact{
-   text-align: left;
-   width: 400px;
+ .get-in-contact{
+   flex-wrap: wrap;
+   display: inline;
+   width: 100%;
+   float: left;
+   display:flex;
    background-color: var(--secondary-color);
    
   }   
@@ -419,24 +424,22 @@ nav {
     color: var(--font-light);
     line-height: 22px;
     font-weight: 400;
-            }
+    justify-content: left;
+     }
+    
+    div.img{
+    width: 100%;
+    flex-wrap: wrap;
+     }
+  
+  .horse{
+    width:  300px;
+    padding: 5px 0 5px 0;
+    border: 2px var(--secondary-color) solid;
+    float: right;
+      }
 
-.img-get-contact{
-
- background-image: url('../images/photo-cbca10.jpg');
- background-size: contain;
- background-repeat: no-repeat;
-  float: right;  
- }
-
-   .img-get-contact img{
-     width:  400px;
-     height: 200px;
-     align-items: right;
-     overflow: hidden; 
-   }
-
-   /*End of the contact page style*/
+    /*End of the contact page style*/
            
 /*=============================================*/  
     /* Footer section */

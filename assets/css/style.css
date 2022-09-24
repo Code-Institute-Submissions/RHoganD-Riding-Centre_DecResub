@@ -312,8 +312,9 @@ nav {
 
 .memories h2{
   font-size: 2rem;
+  font-family:'Gentium Book Basic';
   text-align: center;
-  padding: 3%;
+  padding: 2%;
    }
 
   .images-gallery{
@@ -327,9 +328,26 @@ nav {
    .images-gallery img{
     width: 100%;
     cursor: pointer;
-   }
+       }
 
-   .images-gallery img:hover{
+    
+   /* animates zoom effect 
+   .images-gallery{
+    animation-name: images-galley-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
+   }
+   @keyframes images-galley-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}*/
+
+/* Creating the rotation effect */
+   .images-gallery img:hover{  
     transform: scale(0.8) rotate(-15deg);
     border-radius: 20px;
     box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
@@ -361,8 +379,7 @@ nav {
       color: #fff;
       cursor: pointer;
       }
-
-
+      /*End of gallery page style*/
 
 
     

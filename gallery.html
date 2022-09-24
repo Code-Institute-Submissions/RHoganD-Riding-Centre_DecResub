@@ -30,7 +30,7 @@
     <h2> Unforgetable Memories</h2>
 
     <div class="cover-img" id="coverimgBox">
-        <img src="assets/images/1598020173.jpg" id="coverimg" alt="">
+        <img src="assets/images/1598020173.jpg" id="coverimg">
         <span onclick="closecoverimg()">X</span>
     </div>
    <div class="images-gallery">
@@ -65,3 +65,22 @@
       </ul>
 </div>
 </footer>
+
+<script>
+  var coverimgBox = document.getElementbyId("coverimgBox");
+  var coverimg = document.getElementbyId("coverimg");
+  
+  function opencoverimg(pic){
+      coverimgBox.style.display = "flex";
+      coverimg.src = pic;
+  }
+
+  function closecoverimg(){
+      coverimgBox.style.display = "none";  
+  }
+</script>
+
+<!--font awesome script-->
+<script src="https://kit.fontawesome.com/fc632b9fc3.js" crossorigin="anonymous"></script>
+</body>
+</html>

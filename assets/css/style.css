@@ -26,9 +26,14 @@ body {
     z-index: 100; 
   }
   
-  #header-img { 
-    height: 100px;
-    width: 100px;
+#header-logo{
+  height: 85px;
+  width: 85px;
+ }
+ 
+#header h1{
+ padding-left: 0px;
+ margin-left: 0px;
   }
 
 h1{
@@ -103,7 +108,7 @@ nav {
      flex-wrap: wrap;
      }
 
-    #hero-img{
+     #hero-img{
      width:  1000px;
      height: 400px;
      background-image: url('../images/frontImage.png');

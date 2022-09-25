@@ -116,8 +116,7 @@ nav {
      background-repeat: no-repeat;
      float: right;
      margin-right: 250px;
-     
-       }
+            }
 
        /*Styling the booking button*/
 
@@ -141,20 +140,114 @@ nav {
         }
         
      .book-btn:hover {
-       background-color: #f8f8ff;
-       color: #18191a;
-       transition: ease-in 300ms;
+      background-color: #f8f8ff;
+      color: #18191a;
+      transition: ease-in 300ms;
         }
-        
-      .about-content{
-      text-align: center;
+     /* Welcome section*/   
+     .about-content{
+     text-align: center;
       }
-      .about-content span{
-        font-style: italic;
-        font-family: Gentium Book Basi;
-        font-size: 1.3em;
-         }
+    .about-content span.quote{
+     font-style: italic;
+     text-align: left;
+     font-family: Gentium Book Basi;
+     color: var(--font-light);
+     font-size: 1.2em;
+     padding: 2%;
+     border-left: 4px solid var(--primary-color);
+      }
         
+/*--Where to start - Beginners section--*/
+.start-beginners{
+  display: flex; 
+  flex-wrap: wrap;
+  /* box-sizing: content-box; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+ }
+
+.start-container{
+background-color: var(--secondary-color);
+margin-top: 80px;
+width: 700px;
+height: 755px;
+align-content: center;
+align-items: center;
+justify-content: space-between;
+position: relative; 
+margin-left:20px;
+border-radius: 5%;
+box-shadow: 1px 5px 10px -3px rgba(0,0,0,0.75);
+border: 2px;
+}
+
+
+.start{
+/* border: 2px;
+border-radius: 5%;
+box-shadow: 1px 5px 10px -3px rgba(0,0,0,0.75); */
+justify-content: space-between;
+padding-bottom: 5px;
+
+}
+
+h2.title{
+font-size: 24px;
+color:var(--font-light);
+padding-top: 15px;
+}
+
+p.title{
+color: var(--font-light);
+font-size: 18px;
+font-family:'Poppins';
+padding-top: 5px;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+.title p strong{
+color: #000; 
+text-transform:uppercase;
+color: var(--font-light);
+font-weight: 400;
+line-height: 22px;
+ } 
+        
+.fa-circle-check{
+color: #e24e71;
+font-size: 1.25em
+  }
+
+.beginners-container{
+display: flex;
+background-color: var(--primary-color);
+margin-top: 80px;
+width: 700px;
+height: 755px;
+align-content: center;
+float: right;
+Margin-left: 30px;
+border-radius: 5%;
+border: 2px;
+box-shadow: 1px 5px 10px -3px rgba(0,0,0,0.75);
+}
+
+.video-beginners{
+/* border: 2px; */
+/* border-radius: 5%; */
+/* box-shadow: 1px 5px 10px -3px rgba(0,0,0,0.75); */
+justify-content: space-between;
+width: 100%;
+padding-left:30px;
+margin-top: 20px;
+
+
+}
+
+
 
 /*Booking page section*/
 .container-booking{

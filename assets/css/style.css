@@ -109,7 +109,8 @@ flex-wrap: wrap;
 }
 
 #hero-img{
-width:  1000px;
+width: 100%;
+max-width: 1000px;
 height: 400px;
 background-image: url('../images/frontImage.png');
 background-size:cover;
@@ -358,6 +359,7 @@ text-align: left;
 
 .community{
 background: url(../images/Pony-Day-The-Grove.png) no-repeat center center;
+width: 100%;
 height: 600px;
 }
 .community h2{
@@ -590,7 +592,8 @@ padding: 2%;
 }
 
 .images-gallery{
-width: 80%;margin: 100px auto 50px;
+width: 80%;
+margin: 100px auto 50px;
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 grid-gap: 30px; 
@@ -648,13 +651,16 @@ margin-bottom: 24px;
 }
 
 .video-gallery{
-display: flex;
-justify-content: center;
-padding: 16px;
-padding-top: 24px;
-gap: 24px;
+display: grid;
+width: 100%;
+padding: 10px;
+padding-top: 5%;
+grid-gap: 5px; 
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 color: #fff;
+position: relative;
 }
+
 
  /* Footer section */
 footer {
@@ -700,4 +706,96 @@ color: #f7f6f6;
 
 
 /* Media Query */
+
+/*for Mobile Devices*/
+
+@media screen and (max-width: 500px){
+
+  header #header {
+    font-size:14px;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: left;
+    }
+    
+    #title h1{
+     font-size: 12px; 
+     text-align: left;
+    }
+
+    #header-logo img{
+      width: fit-content;
+      height: fit-content;
+    }
+   
+     nav{
+    clear: left;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    line-height: 10px;
+    }
+
+ #hero-section{
+  width:100%;
+  background:none;   
+  }
+  
+  .book-btn{
+  font-size: 12px;
+  position: flex;
+  margin:0 auto;
+  padding:0 auto;
+  }
+  
+  .video-gallery {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0em 2em 2em 2em;
+  }
+
+  .video-title1{
+  width:100px;
+  font-size: 12px;
+  text-align: center
+  }
+
+.start-beginners{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0em 2em 2em 2em;
+  }
+  
+  
+  .info{
+  width: 200px;
+  font-size: 14px;
+  margin: 0 auto;
+  text-align: center
+  }
+  
+  .colum{
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  
+  }
+  
+  .community{
+  display: flex;
+  width:fit-content;
+    }
+
+
+}    
+  
+
+
+
+
+
+  
+
+
 

@@ -222,7 +222,7 @@ color: #e24e71;
 font-size: 1.25em
   }
 
-.video-title{
+.video-title1{
 font-size: 20px;
 color: #fff;
 font-family: 'Gentium Book Basic';
@@ -251,7 +251,7 @@ padding-left:30px;
 margin-top: 20px;
 }
 
-.video-beginners h3.video-title{
+.video-beginners h3.video-title1{
 font-size: 20px;
 color: #fff;
 font-family: 'Gentium Book Basic';
@@ -320,7 +320,6 @@ border-color: var(--secondary-color);
   color: #fff;
   border-radius: 30px;
   margin-top: 20px;
-  cursor: ponter;
   font-size: 12px;
   cursor: pointer;
   }
@@ -342,11 +341,17 @@ border-color: var(--secondary-color);
   
   .column h2 {
   color: #fff;
-  }
+  text-transform: uppercase;
+    }
   
+.column a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
   .column:hover h2{
-  text-align: left;   
-  }
+  text-align: left;
+    }
 
 
 .community{
@@ -367,77 +372,11 @@ color:#fff;
 text-decoration: none;
 }
 
-
-/* Info & video gallery /*
-
-.video-gallery-container{
-/* display:-moz-grid;
-grid-column:auto;
-column-gap: 1px; 
-row-gap: 1px; 
-display: flex;
-flex-wrap: wrap;
-box-sizing: content-box;
-columns: 2;
-grid-row: 2;
-height: 500px;
-
-/* position: relative;
-flex-wrap: wrap;
-justify-content: space-between;
-margin-top: 10px;
-width: 100vw;
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(560x, 315px));
-column-gap: 10px;
-row-gap: 10px; 
-}
-
-.video-gallery{
-
-margin-top: 40px;
-/* width: 700px;
-height: 400px; 
-}
-
-.feautred-video h3.video-title{
-font-size: 20px;
-color: #fff;
-font-family: 'Gentium Book Basic';
-text-align: center;
-}
-
-.feautred-video-left{
-  padding-top: 20px;
-  /* width: 33%; 
-  height: 400px;
-  float: left;
-  background-color: #e24e71;
-  margin-left: 0;
-  padding-left: 0;
-  clear: both;
-  width: 560px;
-}
-/*
-.feautred-video-right{
-  padding-top: 20px;
-  width: 560px;
-  height: 400px;
-  float: right;
-  background-color: #38abc9;
-  margin-right: 0;
-  padding-right: 0;
-  clear: both;
-}/*
-
 /* End of the index page 
 =============================
 
 
 /*Booking page section*/
-
-
-
 .container-booking{
   width: 90%;
   margin: 0 auto;
@@ -667,10 +606,39 @@ font-size: 14px;
 
 /*============================================*/
 
- /*Note: Contact page will have the same ccs style as the 
+ /*Note: Contact page have the same ccs style as the 
            booking html page.
            
 /*=============================================*/  
+
+/* video Gallery */
+
+.video-container {
+  width: 1200px;
+  font-family: 'Gentium Book Basic';
+  background: #f4e6f6;
+  padding: 8px 0 0 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.video-container h2.title {
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 34px;
+  margin-bottom: 24px;
+}
+
+.video-gallery{
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  padding-top: 24px;
+  gap: 24px;
+  color: #fff;
+}
+
     /* Footer section */
     footer {
       height: 150px;         

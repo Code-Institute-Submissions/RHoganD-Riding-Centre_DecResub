@@ -368,7 +368,7 @@ text-align: center;
 .community a{
 text-align: center;
 color:#fff;
-text-decoration: none;
+text-decoration:underline;
 }
 
 /* End of the index page 
@@ -694,4 +694,7 @@ margin: 1%;
 padding: 1%;
 color: #f7f6f6;
 }
-/* End of the footer section*/
+
+
+/* Media Query */
+

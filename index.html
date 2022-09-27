@@ -10,34 +10,45 @@
     <title>Riding Centre</title>
 </head>
 <body>
-    <header id="header">
-      <img src="assets/images/logo.png" id="header-logo">
-      <h1 id="title">Riding Centre</h1> 
- <nav>
-      <div class="navbar">
+    <header>
+      
+         <nav class="navbar">
+
+            <div class="branding">   
+      <a href="#"><img id="logo" src="assets/images/logo2.png" alt="logo"/></a> 
+               </div>
+
+       <div class="navbar-menu">
+
         <ul class="nav-list">
           <li class="nav-links"><a href="index.html">Home</a></li>
           <li class="nav-links"><a href="gallery.html">Gallery</a></li>
           <li class="nav-links"><a href="contact.html">Contact</a></li>
         </ul>
-        <div class="menu">
+      </div>
+
+        <div class="menu" id="goto">
           <div class="menu-line"></div>
           <div class="menu-line"></div>
           <div class="menu-line"></div>
         </div>
-      </div>
+
       </nav>
   </header>
 
 <!--hero image and booking button-->
-  <section id="hero-section">
+
+<!-- 
+   <section id="hero-section">
     <div id="hero-img"></div>
     <div id="booking">
         <a href="booking.html" class="book-btn">Book Now <i class="fa-solid fa-calendar-days"></i></a>
         </div>
-      </section>
+      </section> -->
         
-<!-- Welcome & About us Section -->
+ <!-- Welcome & About us Section  -->
+
+
 <section class="about" id="about-section">
   <div class="about-content">
     <br>
@@ -51,8 +62,9 @@
        <span class="quote"><strong>"Horses generate an empathy with humans that other animals do not. While many animals are well known for being therapeutic, 
           horses are particularly well known for their ability to foster change."</strong></span>
        </div>
-       </section>
-<section class="top-banner">
+        </section> 
+
+<!-- <section class="top-banner">
   <div class="banner">
     <h2 class="title">Nervous on your first day riding a horse?</h2>
     <p class="title"><strong>Dont worry!.</strong>Although the fist time riding a horse can be challenging but not wihout full of emotions. It is definately
@@ -60,9 +72,10 @@
     See the video below that will show you how to ride a horse step by step!.
       And if you Want to know more? <a href="videos.html"> Click here! </p></a>  
 </div>
-</section>
+</section> -->
 
        <!--info beginner section-->
+<!-- 
        <section class="start-beginners">  
       <div class="beginners-container">
  
@@ -72,7 +85,9 @@
     clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
-</section>
+</section> -->
+
+<!-- 
 <section>
   <div class="banner">
     <h2 class="title">Still not sure where to start?</h2>
@@ -85,49 +100,15 @@
   </div> 
 
 </div>
-</section>
-<!-- 
-<section>
-  <div class="information"><h2><i class="fa-solid fa-horse"></i>Activities you can do in a horse</h2></div>
-  <div class="info"> 
-<div class="column">
-  <a href="https://www.youtube.com/embed/fV7kuUrjutY?rell=0" target="_blank"><h2>Trekking</h2></a>
-  <div class="caption">
-      <p> Trek is for beginners or people competent only at walk and trot. You will be led in hand at walk along the tracks.
-          The more you do it the more confident you become!
-              </p>
-              <a href="https://www.youtube.com/embed/fV7kuUrjutY?rell=0" target="_blank"><button class="btmore" type="submit">Know More</button></a>
-     </div>
-     <img class="trekking" src="assets/images/image-removebg.png" alt="A  nervous beginner in a horse for the first time" >
-     </div>
+</section> -->
 
-     <div class="column">
-      <a href="https://www.youtube.com/embed/-p6gykCrYTE" target="_blank"><h2>Hacking</h2></a>
-      <div class="caption">
-          <p> You will go across the river in the hack and up round woodland.
-              Most of our riding is off road using old railway lines, tracks and forest paths.</p>
-              <a href="https://www.youtube.com/embed/-p6gykCrYTE" target="_blank"><button class="btmore" type="submit">Know More</button></a>
-         </div>
-         <img class="hacking" src="assets/images/pexels-rodnae-removebg1.png" alt="A skilled rider riding in the forst">
-      </div>
-
-      <div class="column">
-        <a href="https://www.youtube.com/embed/Fu8A0hRlD_c" target="_blank"><h2>Jumping</h2></a>
-          <div class="caption">
-              <p>  jumping involves a rider directing a horse through a series of obstacles. 
-                The obstacles vary in both height and width.</p>
-              <a href="https://www.youtube.com/embed/Fu8A0hRlD_c" target="_blank"><button class="btmore" type="submit">Know More</button></a>
-             </div>
-             <img class="jumping" src="assets/images/pexels-jean-van-removebg.png" alt="A rider jumping an obstacle in a horse">  
-           </div>
-          </section> -->
-<section>
+ <!-- <section>
   <div class="community">
 <h2>Supportive Community</h2>
 <p> The British Horse Society promote community participation in healthy recreation involving the horse </p>
  <a href="https://www.bhs.org.uk/" target="_blank"><p>Became part of the British Horse Society</p></a>
   </div>
-</section>
+</section>  -->
 
 <!--Footer section--> 
 
@@ -148,9 +129,20 @@
 </footer>
 
     <!--font awesome script-->
-<script src="https://kit.fontawesome.com/fc632b9fc3.js" crossorigin="anonymous"></script>
-    
-
+  <script src="https://kit.fontawesome.com/fc632b9fc3.js" crossorigin="anonymous"></script>
+  
+  
+  
     
 </body>
+
+<script>
+const  toggleButton = Document.getElementsById('goto');
+const   navlist = document.getElementsByClassName('nav-list');
+        toggleButton.addEventListener('click', () => {
+        navlist.classList.toggle('active');
+       })
+
+</script>
+
 </html>

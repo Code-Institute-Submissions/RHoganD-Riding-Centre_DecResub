@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;300;400;500&display=swap');
 
 *{
+box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
@@ -15,811 +16,102 @@ padding: 0;
 
 body {
     font-family:'Gentium Book', Poppins, sans-serif;
-   }
-
-#header { 
-position: sticky; top: 0;
-display: flex;
-background-color: var(--primary-color);
-height: 100px;
-width: 100%;
-z-index: 100; 
-}
-  
-#header-logo{
-height: 85px;
-width: 85px;
-}
- 
-#header h1{
-padding-left: 0px;
-margin-left: 0px;
+    background-color: #f8f8ff;
 }
 
-h1{
-font-family: 'Gentium Book Basic'; 
+
+.navbar{
+  background-color: var(--primary-color);
+  color: #fff;
+  justify-content: space-between;
+  position: sticky;  
+  top: 0;
+  display: flex;
+  z-index: 100; 
+  /* align-itemS: center;
+  font-size: 20px;
+  font-family: 'Gentium Book Basic';
+  text-align: left; */
+}
+
+.navbar-menu{
+ display: flex;
+ align-itemS: center;
+ font-size: 20px;
+ font-family: 'Gentium Book Basic';
+ text-align: left;
+  }
+
+.nav-list{
+list-style-type: none;
+}
+    
+.nav-list .nav-links{
+display: inline-block;
+padding: 20px 10px;
+}
+    
+.navbar a{
 color: #fff;
-letter-spacing: 3px;
-float: left;
-font-weight: 700;
-margin-top: 20px;
-padding-top: 10px;
-padding-left: 2px;
-width: 50%;
-margin-bottom: 1em;
-}
-
-h2{
-font-family: 'Gentium Book Basic';
-text-align: center;
-font-weight: 600;
-font-size: 2rem;
-}
-
-p {
-color: var(--font-light);
-font-family: Poppins;
-font-weight: 400;
-font-size: 1em;
-line-height: 2em;
-padding: 0px 20px 0px 20px;
-margin-bottom: 1.125em;
-}
-
-/*Navigation links*/
-
-nav {
-color: white;
-float: right;
-width: 50%;
-text-align:right;
-/* display: flex; */
-
-}
-.navbar ul {
-display: block;
-margin-top: 40px;
-}
-
-.navbar ul *{
-list-style: none;
 text-decoration: none;
-display: inline;
-margin:0 10px;
 }
-  
-.navbar li a{
-color: #fff;
-}
+    
 .navbar a:hover{
-Color: var(--font-light);
-transition: ease-in 200ms;
-}
-
-/* Creating a menu that can display in mobile devices */
-.menu-line{
-width: 20px;
-height: 3px;
-background-color: white;
-margin-bottom: 4px;;
-
-}
-
-
- /* hero image & booking button */
-    
-#hero-section{
-margin: 0 auto;
-width: 100%;
-overflow: hidden;
-position: relative;
-align-content: center;
-background-color: var(--secondary-color);
-border-radius: 5px solid;
-flex-wrap: wrap;
-}
-
-#hero-img{
-width: 100%;
-max-width: 1000px;
-height: 400px;
-background-image: url('../images/frontImage.png');
-background-size:cover;
-background-repeat: no-repeat;
-float: right;
-margin-right: 250px;
-}
-
- /*Styling the booking button*/
-
-.book-btn {
-color: #f8f8ff;
-background-color: var(--primary-color);
-text-decoration: none;
-font-family: 'Poppins';
-text-align: center;
-        
-padding: 0.8em 1em;
-border-radius: 8px;
-font-size: 1.10em;
-font-weight: 300;    
-          
-width: 105px;
-height: 30px; 
-bottom: 55px;
-left: 50px;
-position: absolute;
-}
-        
-.book-btn:hover {
-background-color: #f8f8ff;
-color: #18191a;
+color: #bebebe;
 transition: ease-in 300ms;
-}
-
- /* Welcome & about us section*/   
-.about-content{
-text-align: center;
-}
-
-.about-content span.quote{
-font-style: italic;
-text-align: left;
-font-family: Gentium Book Basi;
-color: var(--font-light);
-font-size: 1.2em;
-padding: 2%;
-border-left: 4px solid var(--primary-color);
-}
-      
- /*Banner cros page info */
-.banner{
-background-color: var(--primary-color);
-width: 100%;
-height: 300px;
-margin-bottom: 50px;
-
-}
-
-.top-banner .banner{
-background-color: var(--primary-color);
-width: 100%;
-height: 150px;
-}
-
-.banner .title{
-color: #fff
-}
-
-.fa-circle-check{
-color: #e24e71;
-font-size: 1.25em
-}
-
-h2.title{
-font-size: 24px;
-color:var(--font-light);
-padding-top: 15px;
-}
-
-p.title{
-color: var(--font-light);
-font-size: 18px;
-font-family:'Poppins';
-padding-top: 5px;
-margin-top: 5px;
-margin-bottom: 10px;
-}
-
-.title strong{
-color: red;
-font-weight: 300;
-line-height: 22px;
-} 
-
-.title a{
-color: #fff;  
-}
-
-/*--Video beginner section -*/
-.start-beginners{
-display: flex; 
-flex-wrap: wrap;
-width: 100%;
-align-items: center;
-justify-content: center;
- }
-
-.video-title1{
-font-size: 20px;
-color: #fff;
-font-family: 'Gentium Book Basic';
-width: 559px;
-text-align: center;
-}
-
-.beginners-container{
-display: flex;
-background-color: var(--primary-color);
-margin-top: 80px;
-width: 800px;
-height: 500px;
-align-content: center;
-float: right;
-Margin-left: 30px;
-border-radius: 5%;
-border: 2px;
-box-shadow: 1px 5px 10px -3px rgba(0,0,0,0.75);
-}
-
-.video-beginners{
-justify-content: space-between;
-width: 100%;
-padding-left:30px;
-margin-top: 20px;
-}
-
-.video-beginners h3.video-title1{
-font-size: 20px;
-color: #fff;
-font-family: 'Gentium Book Basic';
-width: 565px;
-text-align: center;
-margin-left: 28px;
-}
-
-.video-beginners iframe{
-margin-left: 25px;
-border: 5px solid;
-border-color: var(--secondary-color);
-}
-
-/* info - Activities you can do in a horse*/
-.information{
-margin-top: 50px;
-padding-top: 10px;
-margin-bottom: 0;
-padding-bottom: 0;
-}
-.fa-horse{
-color: #e24e71;
-font-size: 1.25em
-
-}
-.info{
-width: 1000px;
-height: 450px;
-background: #ccc;
-margin: 120px auto;
-display: flex;
-}
-  
-.column{
-height: 400x;
-flex: 1;
-color: #fff;
-box-sizing: border-box;
-padding: 25px;
-position: relative;
-transition: 0.6s;
-}
-  
-.column:nth-child(1){
-background-color: var(--font-light)
-}
-  
-.column:nth-child(2){
-background-color: var(--primary-color);
-}
-  
-.column:nth-child(3){
-background-color: #e24e71;
-}
-  
-.caption{
-max-width: 230px;
-font-size: 13px;
-margin: 28px 0;
-display: none;
-}
-
-.caption p{
-color: #fff;
-}
-  
-.caption button{
-border: 1px solid #fff;
-background: transparent;
-outline: none;
-padding: 8px 18px;
-color: #fff;
-border-radius: 30px;
-margin-top: 20px;
-font-size: 12px;
-cursor: pointer;
-}
-  
-.column img{
-width: 200px;
-position: absolute; 
-right: 0;
-bottom: 0;
-}
-         
-.column:hover{
-flex-grow: 2.7;
-}
-  
-.column:hover .caption{
-display: block; 
-}
-  
-.column h2 {
-color: #fff;
-text-transform: uppercase;
-}
+ }     
  
-.column a{
-cursor: pointer;
-text-decoration: none;
+.navbar img{
+  width: 170px;
+  height: 150px;
+  margin-left: 25px;
 }
 
-.column:hover h2{
-text-align: left;
-}
-
-
-.community{
-background: url(../images/Pony-Day-The-Grove.png) no-repeat center center;
-width: 100%;
-height: 600px;
-margin-top: 100px;
-}
-.community h2{
-color:#fff;
-text-align: center;
-}
-.community p{
-color:#fff;
-text-align: center;
-}
-.community a{
-text-align: center;
-color:#fff;
-text-decoration:underline;
-}
-
-/* End of the index page 
-=============================
-
-
-/*Booking page section*/
-.container-booking{
-width: 90%;
-margin: 0 auto;
- }
+.menu{
+  display: none;
+  }
   
-.booking{
-box-shadow: 0px 5px 13px -3px rgba(0,0,0,0.75);
-display:flex;
-flex-wrap: wrap;
-}
-  
-.descrip, .form{
-width: 40%;
-padding: 5%;
-}
- 
-.descrip h2{
-text-transform:uppercase;
-color: var(--font-light);
-font-weight: 400;
-margin-top: 0;
-}
-  
-.descrip h2 strong{
-font-weight: 700;
-color: #000;
-}
-  
-.descrip p{
-color: var(--font-light);
-font-size: 14px;
-line-height: 22px;
-}
-  
-.descrip ul{
-padding-left: 16px;
-list-style: circle;
-}
- 
-.fa-phone{
-color: #e24e71;
-font-size: 1.25em
- }
-.fa-envelope{
-color: #e24e71;
-font-size: 1.25em
-}
-
-.fa-mailbox{
-color: #e24e71;
-font-size: 1.25em
-}
-
-.fa-address-card{
-color: #e24e71;
-font-size: 1.25em
-}
-
-.quote p{
-font-style: italic;
-padding: 2%;
-border-left: 4px solid var(--primary-color);
-}
-  
-.descrip ul li {
-margin: 10px 0;
-}
-    
-.form{
-background: var(--secondary-color);
-}
-  
-.form form{
-color: var(--font-light);
-display: flex;
-flex-wrap: wrap;
-}
-  
-.inpbox.full{
-width: 100%;
-background: #fff;
-padding: 3%;
-margin-bottom: 20px;
-display: flex;
-flex-wrap: wrap;
-}
-
-label{
-color:var(--font-light);
-font-family: 'sans-serif';
-font-size: 1rem;
-width: 150px;
-}
-     
-.form select{
-border-bottom: 1px;
-width: 45%;
-color: var(--font-light);
-padding: 0 4%;
-}
-  
-form select:focus, .form input:focus{
-outline: none;
-}
-  
-.inpbox{
-width: 42%;
-background: #ffff;
-padding: 3%;
-margin-bottom: 20px;
-margin-right: 2%;
-}
-  
-.inrbox{
-width: 33%;
-color: #000;
-}
-
-.inrbox h3{
-font-size: 1.4rem;
- }
-.inrbox label{
- text-transform: uppercase;
- font-size: 0.9rem;
-padding-right: 8px;
-}
-    
-.inrbox span{
-border: 0;
-font-size: 14px;
-padding-right: 5px;
-}
-  
-.form input[type="radio"]{
-width: unset;
-}
-  
-button.sub, button.reset{       
-padding: 2% 3%;
-font-weight: 700;
-text-transform: upercase;
-border: 0;
-}
-  
-button.sub{
-margin-right: 3%;
-background: var(--primary-color);
-border: none;
-color: black;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-}
-    
-button.reset{
-background: #000;
-color: #fff;
-border: none;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-}
-
-/*Booking confirmaiton page*/
-
-.bconfirm{
-width: 100%;
-height: 600px;
-}
-.bconfirm p{
-text-align: center;
-}
-
-.book-confirm{
-text-align: left;
-width: 500px;
-padding-left: 10px;
-}
-
-.book-confirm p{
-font-family: 'Poppins';
-text-align: left;
-font-weight: 300;
-margin: 0;
-padding: 0;
-font-size: 14px;
-}
-
-.book-confirm h3{
-text-align: left;
-font-weight: 400;
-font-family: 'Gentium Book Basic';
-font-display: block;
-} 
-
-/*=======================================*/
-
-/*Styling Gallery of  Memories*/
-
-.memories h2{
-font-size: 2rem;
-font-family:'Gentium Book Basic';
-text-align: center;
-padding: 2%;
-}
-
-.images-gallery{
-width: 80%;
-margin: 100px auto 50px;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-grid-gap: 30px; 
-}
-              
-.images-gallery img{
- width: 100%;
- cursor: pointer;
- }
-
-    
-   /*animates zoom effect 
-   .images-gallery{
-    animation-name: images-galley-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; 
-    transition: ease 0.1ms;
-   }
-   @keyframes images-galley-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+ .menu-line{
+  width: 20px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 4px;
   }
 
-/*End of the Gallery page
+@media screen and (max-width: 480px) {
 
-
-/*============================================*/
-
- /*Note: Contact page have the same ccs style as the 
-           booking html page.
-           
-/*=============================================*/  
-
-/* video Gallery */
-
-.video-container {
-width: 1200px;
-font-family: 'Gentium Book Basic';
-background: #f4e6f6;
-padding: 8px 0 0 0;
-margin: 0 auto;
-box-sizing: border-box;
-}
-
-.video-container h2.title {
-text-align: center;
-font-weight: 300;
-text-transform: uppercase;
-font-size: 34px;
-margin-bottom: 24px;
-}
-
-.video-gallery{
-display: grid;
-width: 100%;
-padding: 10px;
-padding-top: 5%;
-grid-gap: 5px; 
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-color: #fff;
-position: relative;
-}
-
-
- /* Footer section */
-footer {
-height: 150px;         
-background-color: #38abc9;
-}
-
-.copyright {
-margin-top: 20px;
-text-align: center;  
-}
-.copyright h3 {
-font-family: 'sans-serif'; 
-font-size: 16px; 
-padding:10px 0 0 1px;
-font-weight:400;
-color: #fff;
-}
-
-.copyright p{
-font-size: 13px;
-padding: 1px;
-color: #fff;
-margin: 0;
-}
-ul .social-networks{
-margin-top: 0;
-}
-.social-networks {
-text-align:center;
-margin-top: 1px;             
-}
-
-.social-networks > li {
-display: inline;       
-}
-.social-networks i {
-font-size: 135%;
-margin: 1%;
-padding: 1%;
-color: #f7f6f6;
-}
-
-
-/* Media Query */
-
-/*for Mobile Devices*/
-
-@media screen and (max-width: 500px){
-
-  #header-logo{
-    height: 24px;
-    width: 24px;
-    }
-    
-    #header h1{
-      font-size: 12px;
-      margin: 0 auto;
-      }
-      
-      h2{
-      font-size: 12px;
-      }
-      
-      p{
-      font-size: 10px;
-      }
-
-    #title h1{
-     font-size: 12px; 
-     text-align: left;
+  .navbar{
+    flex-direction: column;
+    position: relative;
     }
 
-    #header-logo img{
-    width: fit-content;
-    height: fit-content;
-    }
-   
-     nav{
-    clear: left;
-    float: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    line-height: 10px;
-    }
+  .navbar .branding{
+    width: 100%;
+     }
 
- #hero-section{
-  width:100%;
-  background:none;   
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.nav-list{
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  display: none;
+  
+}
+.nav-list .nav-links{
+  display: block;
+  border-top: 1px solid #fff;
+}
+.logo{
+  margin-top: 10px;
+  margin-left: 10px;
   }
-  
-  .book-btn{
-  font-size: 12px;
-  position: flex;
-  margin:0 auto;
-  padding:0 auto;
-  }
-  
-  .video-gallery {
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0em 2em 2em 2em;
-  }
-
-  .video-title1{
-  width:100px;
-  font-size: 12px;
-  text-align: center
-  }
-
-.start-beginners{
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0em 2em 2em 2em;
-  }
-  
-  
-  .info{
-  width: 200px;
-  font-size: 14px;
-  margin: 0 auto;
-  text-align: center
-  }
-  
-  .colum{
-  flex-direction: column;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: wrap;
-  
-  }
-  
-  .community{
-  display: flex;
-  width:fit-content;
-    }
-
-
-}    
-  
-
-
-
-
-
-  
-
-
-
+  .active{
+    display: block;
+}
+}

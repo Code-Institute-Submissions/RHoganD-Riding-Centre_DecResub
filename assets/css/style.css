@@ -176,7 +176,7 @@ height: 150px;
   
   .fa-circle-check{
   color: #fff;
-  font-size: 1.25em
+  font-size: 1.23em
   }
   
   h2.title{
@@ -208,7 +208,7 @@ height: 150px;
 
 section.vi-section {
 
-  /* padding: left 100ppx; */
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,7 +217,7 @@ section.vi-section {
 .beginner-container{
 flex: 1 1 55%;
 flex-wrap: wrap;
-max-width: 660px;
+max-width: 560px;
 margin: 2.5em;
 margin-top: 80px;
   }
@@ -230,8 +230,8 @@ height: 0;
   
   
   .video iframe{
-    border: 5px solid black;
-    border-color: var(--other-color);
+    border: 3px solid #fff;
+    border-color: #ad773e;
     position: absolute;
     top: 0;
     left: 0;
@@ -265,18 +265,20 @@ height: 0;
     =============================
     
 
-    /* Booking page */
+    /* Booking & Contact page */
 
     .container-booking{
       width: 90%;
       margin: 0 auto;
+      
+      
        }
         
       .booking{
       box-shadow: 0px 5px 13px -3px rgba(0,0,0,0.75);
       display:flex;
       flex-wrap: wrap;
-           
+         
       }
         
       .descrip, .form{
@@ -308,21 +310,21 @@ height: 0;
       }
        
       .fa-phone{
-      color: #e24e71;
+      color: #a77037;
       font-size: 1.25em
        }
       .fa-envelope{
-      color: #e24e71;
+      color: #ad773e;
       font-size: 1.25em
       }
       
       .fa-mailbox{
-      color: #e24e71;
+      color: #ad773e;
       font-size: 1.25em
       }
       
       .fa-address-card{
-      color: #e24e71;
+      color: #ad773e;
       font-size: 1.25em
       }
       
@@ -345,6 +347,7 @@ height: 0;
       color: var(--font-light);
       display: flex;
       flex-wrap: wrap;
+      
       }
         
       .inpbox.full{
@@ -436,12 +439,89 @@ height: 0;
       font-size: 16px;
       }
       
+
+
+/*Booking confirmaiton page*/
+
+ .bconfirm{
+  
+  width: 100%;
+  height: 490px;
+  }
+  .bconfirm p{
+  text-align: center;
+  }
+  
+  .book-confirm{
+  text-align: left;
+  width: 500px;
+  padding-left: 10px;
+  }
+  
+  .book-confirm p{
+  font-family: 'Poppins';
+  text-align: left;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  }
+  
+  .book-confirm h3{
+  text-align: left;
+  font-weight: 400;
+  font-family: 'Gentium Book Basic';
+  font-display: block;
+  } 
+  
+
+/*Gallery of  Memories*/
+
+  .memories h2{
+   font-size: 2rem;
+  font-family:'Gentium Book Basic';
+  text-align: center;
+  padding: 2%;
+   }
+        
+  .images-gallery{
+   width: 80%;
+   margin: 100px auto 50px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   grid-gap: 30px; 
+    }
+                      
+   .images-gallery img{
+    width: 100%;
+    cursor: pointer;
+     }
+        
+  .images-gallery img:hover{
+    transform: scale(1.5);
+    transition: ease 100ms;
+    transition: transform .2s;
+  } 
+       
+
+
+/*  Videos Gallery */
+
+#video-gallery{
+display: grid;
+grid-template-columns: repeat(2, minmax(560px, 1fr));
+grid-gap: 20x; 
+}
+ 
+
+
+
+
+
+
+
+ 
     
-
-
-
-
-
 
 
 
@@ -609,12 +689,29 @@ section .banner{
   width: 100%
   }
 
+.descrip h2{
+  font-size: 18px;
+}
 .descrip p{
  font-size: 10px; 
 }
 
 .descrip ul li{
   font-size: 10px; 
+}
+
+textarea {
+width: 150px;
+
+}
+
+input .inpbox {
+  flex-direction: row;
+}
+
+input .inrbox{
+flex-direction: row;
+
 }
   .inrbox label{
   font-size: 10px;
@@ -632,7 +729,7 @@ font-size: 10px;
 }
 
 label{
-  font-size: 12px;
+  font-size: 10px;
 }
 input{
   font-size: 10px;
@@ -642,12 +739,40 @@ input{
  button.sub, button.reset{       
  padding: 1% 2%;
  font-size:10px;
- 
  }
 
-.inrbox span {
-font-size: 10px
+/* Booking confirmation page */
+.bconfirm p{
+  font-size: 12px;
 }
+
+.bconfirm h2{
+font-size: 20px;
+}
+
+.book-confirm p{
+font-size: 12px;
+padding-top: 5px;
+}
+
+.book-confirm h3{
+font-size: 14px;
+padding-top: 5px;
+}
+
+.bringback-home{
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+/*gallery */
+.memories h2{
+font-size: 20px;
+padding-top: 20px;
+
+}
+
+ /* footer */
 .copyright h3{
   font-size: 12px;
 }

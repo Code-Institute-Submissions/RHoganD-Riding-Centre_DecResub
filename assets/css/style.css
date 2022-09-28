@@ -95,7 +95,7 @@ transition: ease-in 300ms;
 /* Hero image section */
 
 #hero-section{
-background: url(../images/hero-horse-riding.png) no-repeat center center;
+background: url(../images/hero-horse-riding2.png) no-repeat center center;
 background-size: cover;
 background-color: var(--secondary-color);
 height: 100vh;
@@ -208,7 +208,10 @@ height: 150px;
 
 section.vi-section {
 
-  padding: left 100ppx;
+  /* padding: left 100ppx; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .beginner-container{
@@ -236,38 +239,203 @@ height: 0;
     height: 100%;
   }
 
+/* Community section */
   
-  section .community{
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  align-items: center;
-    }
-
-
-   .community{
+  .community{
     background: url(../images/Pony-Day-The-Grove.png) no-repeat center center;
     background-size: cover;
     height: 550px;
+    text-align: center;
       }
 
     .community h2{
-    color:#fff;
-    text-align: center;
-    }
+    color: #fff;
+     }
+
     .community p{
-    color:#fff;
-    text-align: center;
-    }
+     color: #fff; 
+    } 
+
     .community a{
-    text-align: center;
-    color:#fff;
+     color:#fff;
     text-decoration:underline;
     }
     
     /* End of the index page 
     =============================
     
+
+    /* Booking page */
+
+    .container-booking{
+      width: 90%;
+      margin: 0 auto;
+       }
+        
+      .booking{
+      box-shadow: 0px 5px 13px -3px rgba(0,0,0,0.75);
+      display:flex;
+      flex-wrap: wrap;
+           
+      }
+        
+      .descrip, .form{
+      width: 45%;
+      padding: 5%;
+      }
+       
+      .descrip h2{
+      text-transform:uppercase;
+      color: var(--font-light);
+      font-weight: 400;
+      margin-top: 0;
+      }
+        
+      .descrip h2 strong{
+      font-weight: 700;
+      color: #000;
+      }
+        
+      .descrip p{
+      color: var(--font-light);
+      font-size: 14px;
+      line-height: 22px;
+      }
+        
+      .descrip ul{
+      padding-left: 16px;
+      list-style: circle;
+      }
+       
+      .fa-phone{
+      color: #e24e71;
+      font-size: 1.25em
+       }
+      .fa-envelope{
+      color: #e24e71;
+      font-size: 1.25em
+      }
+      
+      .fa-mailbox{
+      color: #e24e71;
+      font-size: 1.25em
+      }
+      
+      .fa-address-card{
+      color: #e24e71;
+      font-size: 1.25em
+      }
+      
+      .quote p{
+      font-style: italic;
+      padding: 2%;
+      border-left: 4px solid var(--primary-color);
+      }
+        
+      .descrip ul li {
+      margin: 10px 0;
+      }
+          
+      .form{
+       background: var(--secondary-color);
+    
+    }
+        
+      .form form{
+      color: var(--font-light);
+      display: flex;
+      flex-wrap: wrap;
+      }
+        
+      .inpbox.full{
+      width: 100%;
+      background: #fff;
+      padding: 3%;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      }
+      
+      label{
+      color:var(--font-light);
+      font-family: 'sans-serif';
+      font-size: 1rem;
+      width: 150px;
+      }
+           
+      .form select{
+      border-bottom: 1px;
+      width: 48%;
+      color: var(--font-light);
+      padding: 0 4%;
+      }
+        
+      form select:focus, .form input:focus{
+      outline: none;
+      }
+        
+      .inpbox{
+      width: 48%;
+      background: #ffff;
+      padding: 3%;
+      margin-bottom: 20px;
+      margin-right: 2%;
+      }
+        
+      .inrbox{
+      width: 33%;
+      color: #000;
+      }
+      
+      .inrbox h3{
+      font-size: 1.4rem;
+       }
+      .inrbox label{
+       text-transform: uppercase;
+       font-size: 0.9rem;
+      padding-right: 8px;
+      }
+          
+      .inrbox span{
+      border: 0;
+      font-size: 14px;
+      padding-right: 5px;
+      }
+        
+      .form input[type="radio"]{
+      width: unset;
+      }
+        
+      button.sub, button.reset{       
+      padding: 2% 3%;
+      font-weight: 700;
+      text-transform: upercase;
+      border: 0;
+      }
+        
+      button.sub{
+      margin-right: 3%;
+      background: var(--primary-color);
+      border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      }
+          
+      button.reset{
+      background: #000;
+      color: #fff;
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      }
+      
     
 
 
@@ -423,6 +591,72 @@ section .banner{
   height: auto;
 }
 
+.community h2{
+  font-size: 22px;
+}
+.community p{
+  font-size: 12px;
+}
 
+/* booking page */
+
+.booking{
+  display:block;
+  flex-direction: column;
+}
+
+.descrip, .form{
+  width: 100%
+  }
+
+.descrip p{
+ font-size: 10px; 
+}
+
+.descrip ul li{
+  font-size: 10px; 
+}
+  .inrbox label{
+  font-size: 10px;
+  }
+  .inrbox h3{
+    font-size: 12px;
+  }
+
+.inrbox span{
+font-size: 10px;
+}
   
+.form select {
+font-size: 10px;
+}
+
+label{
+  font-size: 12px;
+}
+input{
+  font-size: 10px;
+}
+
+
+ button.sub, button.reset{       
+ padding: 1% 2%;
+ font-size:10px;
+ 
+ }
+
+.inrbox span {
+font-size: 10px
+}
+.copyright h3{
+  font-size: 12px;
+}
+.copyright p{
+  font-size: 10px;
+}
+
+.social-networks{
+  font-size: 50%;
+}
+
 }

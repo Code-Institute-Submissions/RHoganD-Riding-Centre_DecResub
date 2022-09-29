@@ -358,10 +358,7 @@ section .banner{
       display: flex;
       flex-wrap: wrap;
       }
-      
-      
-
-
+          
       label{
       color:var(--font-light);
       font-family: 'sans-serif';
@@ -752,208 +749,93 @@ form{
   flex-direction: column;
 }
 
-.inbox{
-  width: 200px;
+
+.inpbox{
+width: 100%;
+
 }
+input#appt, input#appt1{
+  width: 180px;
+}
+
+input#name1, input#email1{
+  width: 215px;
+}
+
+label#time, label#date, label#email, label#name{
+  font-size: 16px;
+}
+
+label#acive, label#habi{
+  font-size: 16px;
+}
+
+button.reset, button.sub{
+  width: 315px;
+}
+
   }
 
 
-/* 
-select#activity, select#hability{
-  width: 130px;
-}
- 
-input#name1 , input#email1{
-  width: 125px;
-}
+@media screen and (max-width: 1110px) {
+
+  textarea#message{
+    width: 230px;
+    }
+
+  select#hability, select#activity{
+    width: 250px;
+  }
   
-input#appt, input#appt1{
-  width: 125px;
+  button.reset, button.sub{
+    width: 290px;
+  }
+  
+  .inrbox{
+  
+    display:inline-table;
+  }
+  input#beginner, input#intermediate, input#advance{
+    width: 8px;
 }
 
-label#habi, label#active{
-  font-size: 14px;
-}
-button.sub{
-  width: 107.59px;
-  margin: 0 8px 0 0;
-}
+
 .descrip h2{
-  font-size: 28px;
+  font-size: 22px;
   margin-bottom: 15px;
 }
 
-.community span{
-  color: #ad773e;
-      }
-
-.bconfirm h2{
-margin-top: 20px;
-} */
-
-
-
-/* @media screen and (max-width: 1128px) {
-
-  textarea#message{
-  width: 220px;
-  }
-  input#fname.input, input#email.input{
-    width: 220px;
-  }
-
-  .community span{
-    color: #ad773e;
-        }
-  
-}
-
-.descrip h2{
-font-size: 25px;
-}
-
-.descrip ul{
-  font-size: 10.5px;
-}
-
-button.sub, button.reset{
-    font-size: 10px;
-}
-  }
-   */
-   
-
-
-@media screen and (max-width: 767px) {
-
-  .navbar{
-    flex-direction: column;
-    position: relative;
-    }
-
-  .navbar .branding{
-   width: 100%;
-  }
-
-  .menu {
-    display: block;
-    position: absolute;
-    right: 15px;
-    top: 15px;
-}
-.nav-list{
-  list-style-type: none;
-  width: 100%;
-  text-align: center;
-  padding-top: 0;
-  display: block;  
-}
-.nav-list .nav-links{
-  display: block;
-  border-top: 1px solid #fff;
-}
- .navbar-menu {
-    font-size: 18px;
-  }
-
-  #hero-section h1{
-    font-size: 19px;
-    margin-bottom: 20px;
-    }
-  
-   a.book-btn{
-    margin-left: 157px;
-    font-size: 15px;
-    }  
- 
-  .about-content h2{
-   font-size: 30px;
-   margin-bottom: 10px;
-  }
- .about-content p{
- font-size: 16px;
-  }
- strong{
-  font-size: 16px;
-  }
-
-  .top-banner .banner{
-  height: auto;
-      }
-    
- .banner p.title{
-   font-size: 10px;
-  }    
-
-  section .banner{
-  height: auto;
-    }
-   
-    
-  .community span{
-  color: #ad773e;
-      }
-
-/* contact section */
-
-.descrip h2{
-font-size: 20px;
-}
-.descrip p{
-font-size: 13px; 
-}
-textarea{
-width: 280px;
-}
-
-input#fname.input{
-width: 280px;
-}
-
-input#email.input{
-  width: 280px;
-}
-label#nam, label#ema, label#mesag{
-font-size: 13.5px;
-}
-
-button.reset{       
-padding: 2% 4%;
-font-size: 12px;
-}
- 
-/* booking section */
-
-select#hability, select#activity{
-  width: 190px;
-}
-
-input{
-  width: 150px;
-}
-
-label#habi, label#active{
-  font-size: 13.8px;
-  }
-
-label#time, label#date, label#name, label#email{
-  font-size: 13.8px;
-}
-
-/* booking confirmation */
-
-.bconfirm h2{
-  margin-top: 20px;
-}
-/* video page section */
-
-h2#titl.title{
-  font-size: 22.5px;
-}
+.descrip h3{
+  margin-bottom: 25px;
  }
 
+ .descrip p{
+  padding: 0;
+  margin: 10px;
+ }
 
- @media screen and (max-width: 480px) {
+ button.reset, button.sub{
+  width: 300px;
+}
+
+}
+
+@media screen and (max-width: 956px){
+
+
+ .descrip ul{
+  font-size: 12.5px;
+  padding: 0 0 0 14px;
+}
+
+
+ .quote p{
+ font-size: 11px;
+ }
+
+ 
+
+@media screen and (max-width: 860px) {
 
   .navbar{
     flex-direction: column;
@@ -981,6 +863,203 @@ h2#titl.title{
   display: block;
   border-top: 1px solid #fff;
 }
+
+
+.booking{
+  display:block;
+  flex-direction: column;
+}
+
+.descrip, .form{
+  width: 100%
+  }
+
+   .descrip h2{
+    font-size: 27px;
+    }
+    .descrip p{
+    font-size: 14px; 
+    padding-top: 10px;
+    }
+
+   .descrip ul{
+   font-size: 14px;
+   }
+    
+   .inrbox h3{
+    font-size: 16px;
+       }
+
+   .inrbox span{ 
+    font-size: 13px;
+   }
+
+
+      select#hability, select#activity{
+      width: 300px;
+    }
+       
+    
+    label#habi, label#active{
+      font-size: 14px;
+  
+      }
+    
+    label#time, label#date, label#name, label#email{
+      font-size: 14px;
+    }
+
+    input#name1, input#email1{
+      width: 405px;
+    }
+    
+input#appt, input#appt1{
+  width: 380px;
+}
+
+button.reset button.sub{   
+font-size: 12px;
+ 
+  }
+    
+    .bconfirm h2{
+      margin-top: 20px;
+      font-size: 28px;
+    }
+    
+    input#beginner, input#intermediate, input#advance{
+      width: 13px;
+      padding-left: 5px;
+  } 
+
+
+label#begi, label#interm, label#advanc{
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+textarea#message{
+  width: 470px;
+}
+
+}
+input#fname.input, input#email.input{
+  width: 220px;
+}
+}
+  
+@media screen and (max-width: 767px) {
+  #hero-section h1{
+    font-size: 19px;
+    margin-bottom: 20px;
+    }
+  
+   a.book-btn{
+    margin-left: 157px;
+    font-size: 15px;
+    }  
+ 
+  .about-content h2{
+   font-size: 30px;
+   margin-bottom: 10px;
+  }
+ .about-content p{
+ font-size: 14.5px;
+  }
+ strong{
+  font-size: 14.5px;
+  }
+
+  .top-banner .banner{
+  height: auto;
+  
+      }
+    
+ .banner p.title{
+   font-size: 12.5px;
+  }    
+
+  section .banner{
+  height: auto;
+    }
+   
+.descrip h2{
+font-size: 25px;
+}
+.descrip strong{
+  font-size: 25px;
+  }
+
+.descrip p{
+font-size: 13px; 
+}
+
+
+input#fname.input{
+width: 280px;
+}
+
+input#email.input{
+  width: 280px;
+}
+label#nam, label#ema, label#mesag{
+font-size: 13.5px;
+}
+
+button.reset{       
+padding: 2% 4%;
+font-size: 12px;
+}
+
+select#hability, select#activity{
+  width: 190px;
+}
+
+input{
+  width: 150px;
+}
+
+label#habi, label#active{
+  font-size: 13.8px;
+  }
+
+label#time, label#date, label#name, label#email{
+  font-size: 13.8px;
+}
+
+.bconfirm h2{
+  margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+
+  textarea#message{
+    width: 400px;
+  }
+
+  
+input .inpbox {
+  flex-direction: row;
+}
+
+input .inrbox{
+flex-direction: row;
+}
+}
+
+ @media screen and (max-width: 551px) {
+
+/* .navbar{
+    flex-direction: column;
+    position: relative;
+    }
+
+  .navbar .branding{
+   width: 100%;
+  } */
+
 .logo{
   margin-top: 10px;
   margin-left: 10px;
@@ -991,28 +1070,21 @@ font-size: 18px;
 text-align: center;
 }
 
-a.book-btn{
-  margin-right: 135px;
-  font-size: 9px;
-  padding: 8px 11px;
-  
-  }
-
 .about .about-content{
   height: auto;
 }
   .about-content h2{
-    font-size: 22px;
+    font-size: 24px;
   }
   .about-content p{
-    font-size: 12.8px;
+    font-size: 13.5px;
   }
   strong{
-    font-size: 12px;
+    font-size: 13.5px;
   }
 
   p.title{
-    font-size: 12px;
+    font-size: 13.5px;
   }
  h2.title{
 font-size: 18px;
@@ -1028,38 +1100,36 @@ section .banner{
 }
 
 .community h2{
-  font-size: 22px;
+  font-size: 25px;
 }
 .community p{
-  font-size: 12px;
+  font-size: 13.5px;
 }
-
-/* booking page */
-
-.booking{
-  display:block;
-  flex-direction: column;
-}
-
-.descrip, .form{
-  width: 100%
-  }
 
 .descrip h2{
   font-size: 18px;
 }
 .descrip p{
- font-size: 10px; 
+ font-size: 13.5px; 
 }
 
 .descrip ul li{
-  font-size: 10px; 
+  font-size: 12.5px; 
 }
 
-textarea {
-width: 150px;
+input#name1, input#email1{
+  width: 340px;
+}
+
+input#appt, input#appt1{
+width: 290px;
+}
+
+textarea#message{
+  width: 340px;
 
 }
+
 
 input .inpbox {
   flex-direction: row;
@@ -1085,18 +1155,17 @@ font-size: 10px;
 }
 
 label{
-  font-size: 10px;
+  font-size: 12px;
 }
 input{
-  font-size: 10px;
+  font-size: 12px;
 }
 
  button.sub, button.reset{       
- padding: 1% 2%;
- font-size: 10px;
- }
+ padding: 5px;
+ font-size: 12px;
+ } 
 
-/* Booking confirmation page */
 .bconfirm p{
   font-size: 12px;
 }
@@ -1120,14 +1189,12 @@ padding-top: 5px;
   padding-top: 10px;
 }
 
-/*gallery */
 .memories h2{
 font-size: 20px;
 padding-top: 20px;
 
 }
 
- /* footer */
 .copyright h3{
   font-size: 12px;
 }
@@ -1136,8 +1203,30 @@ padding-top: 20px;
 }
 
 .social-networks{
-  font-size: 50%;
+ font-size: 50%;
+ }
 }
+@media screen and (max-width: 480px){
+
+  textarea#message{
+    width: 300px;
+} 
+  
+input#name1, input#email1{
+  width: 300px;
 }
 
+input#appt, input#appt1{
+width: 200x;
+}
 
+input#fname.input{
+  width: 250px;
+  }
+  
+  input#email.input{
+    width: 250px;
+  }
+  
+
+}

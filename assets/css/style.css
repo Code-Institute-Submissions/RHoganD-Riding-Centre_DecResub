@@ -5,6 +5,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+
 }
 
 /* Global Styles */
@@ -35,16 +36,14 @@ h2{
   line-height: 2em;
   padding: 0px 20px 0px 20px;
   margin-bottom: 1.125em;
-  }
+  } 
 
-.navbar{
+ .navbar{
   background-color: var(--other-color);
   color: #fff;
   justify-content: space-between;
-  position: sticky;  
   top: 0;
   display: flex;
-  z-index: 100; 
   }
 
 .navbar-menu{
@@ -102,7 +101,7 @@ height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
-}
+} 
 
 
 
@@ -512,47 +511,57 @@ height: 100%;
 
 /*  Videos Gallery */
 
+#video-gallery{
+justify-content: center;
+align-items: center;
+}
+
 .flex-parent-element{
 display: flex;
-width: 50%;
+width: 100%;
+
+
  }
 
 #gale{
 flex: 1;
-margin: 10px;
+margin: 5px;
  }
 
  #gale:first-child{
   margin-right: 10px;
 }
 
-/* ===================== */
 .flex-parent-element1{
   display: flex;
-  width: 50%;
+  width: 100%;
+  
 }
 
 #gale1{
   flex: 1;
-  margin: 10px;
+  margin: 5px;
 }
 
 #gale1:first-child{
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .flex-parent-element2{
   display: flex;
-  width: 50%;
+  width: 100%;
+   
 }
 
 #gale2{
+
   flex: 1;
-  margin: 10px;
+  margin: 5px;
 }
 
 #gale2:first-child{
-  margin-right: 20px;
+  margin-right: 10px;
+ 
 }
 
 
@@ -625,37 +634,18 @@ margin: 10px;
   color: #f7f6f6;
   }
   
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-@media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
 
   .navbar{
     flex-direction: column;
     position: relative;
     }
 
-  .navbar .branding{
+  .active{
+  display: block;
+  }
+
+    .navbar .branding{
     width: 100%;
      }
 
@@ -670,8 +660,7 @@ margin: 10px;
   width: 100%;
   text-align: center;
   padding-top: 10px;
-  
-  
+  display: block;  
 }
 .nav-list .nav-links{
   display: block;
@@ -680,19 +669,14 @@ margin: 10px;
 .logo{
   margin-top: 10px;
   margin-left: 10px;
-  }
-  .active{
-    display: block;
 }
+ 
 
 #hero-section h1{
 font-size: 18px;
 text-align: center;
 }
 
-a.book-btn{
-  display: none;
-  }
 
 .about .about-content{
   height: auto;
@@ -787,7 +771,6 @@ input{
   font-size: 10px;
 }
 
-
  button.sub, button.reset{       
  padding: 1% 2%;
  font-size:10px;
@@ -835,5 +818,192 @@ padding-top: 20px;
 .social-networks{
   font-size: 50%;
 }
+}
+
+@media screen and (max-width: 767px) {
+  
+  .navbar-menu {
+    font-size: 15px;
+  }
+
+  .navbar{
+    flex-direction: column;
+    position: relative;
+    }
+
+  
+  .navbar .branding{
+    width: 
+     }
+
+  .menu {
+    display: 
+    position: 
+    right: 
+    top: 
+}
+.nav-list{
+  list-style-type: 
+  width: 
+  text-align: 
+  padding-top: 
+  display: 
+}
+.nav-list .nav-links{
+  display: 
+  border-top: 
+}
+.logo{
+  margin-top: 
+  margin-left: 
+  
+}
+
+#hero-section h1{
+font-size: 
+text-align: 
+}
+
+.about .about-content{
+  height: auto;
+}
+  .about-content h2{
+    font-size: 
+  }
+  .about-content p{
+    font-size: 
+  }
+  strong{
+    font-size: 
+  }
+
+  p.title{
+    font-size: 
+  }
+ h2.title{
+font-size: 
+
+ }
+
+.top-banner .banner{
+height: 
+  }
+
+section .banner{
+  height: 
+}
+
+.community h2{
+  font-size: 
+}
+.community p{
+  font-size: 
+}
+
+/* booking page */
+
+.booking{
+  display:
+  flex-direction: 
+}
+
+.descrip, .form{
+  width: 
+  }
+
+.descrip h2{
+  font-size: 
+}
+.descrip p{
+ font-size: 12px;
+}
+
+.descrip ul li{
+  font-size: 
+}
+
+textarea {
+width: 
+
+}
+
+input .inpbox {
+  flex-direction:
+}
+
+input .inrbox{
+flex-direction: 
+
+}
+  .inrbox label{
+  font-size: 
+  }
+  .inrbox h3{
+    font-size: 
+  }
+
+.inrbox span{
+font-size: 
+}
+  
+.form select {
+font-size: 
+}
+
+label{
+  font-size: 
+}
+input{
+  font-size: 
+}
+
+ button.sub, button.reset{       
+ padding: 
+ font-size:
+ }
+
+/* Booking confirmation page */
+.bconfirm p{
+  font-size: 
+}
+
+.bconfirm h2{
+font-size: 
+}
+
+.book-confirm p{
+font-size: 
+padding-top: 
+}
+
+.book-confirm h3{
+font-size: 
+padding-top: 
+}
+
+.bringback-home{
+  font-size: 
+  padding-top: 
+}
+
+/*gallery */
+.memories h2{
+font-size: 
+padding-top: 
+
+}
+
+ /* footer */
+.copyright h3{
+  font-size: 
+}
+.copyright p{
+  font-size: 
+}
+
+.social-networks{
+  font-size:
+}
+
 
 }

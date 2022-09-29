@@ -159,12 +159,10 @@ a.book-btn{
 .banner{
 background-color: #277487;
 width: 100%;
-height: 300px;
 margin-bottom: 50px;
 }
 
 .top-banner .banner{
-background-color: #1c5c6c;
 width: 100%;
 height: 150px;
 }
@@ -186,7 +184,7 @@ height: 150px;
   
   p.title{
   color: var(--font-light);
-  font-size: 18px;
+  font-size: 16px;
   font-family:'Poppins';
   padding-top: 5px;
   margin-top: 5px;
@@ -243,6 +241,12 @@ height: 100%;
   margin-bottom: 50px;
 }
 
+section .banner{
+  width: 100%;
+  padding-bottom: 15px;
+  height: auto;
+}
+
 /* Community section */
   
   .community{
@@ -265,24 +269,17 @@ height: 100%;
     text-decoration:underline;
     }
     
-    /* End of the index page 
-    =============================
-    
-
-    /* Booking & Contact page */
+   /* Booking & Contact page */
 
     .container-booking{
       width: 90%;
       margin: 0 auto;
-      
-      
-       }
+      }
         
       .booking{
       box-shadow: 0px 5px 13px -3px rgba(0,0,0,0.75);
       display:flex;
       flex-wrap: wrap;
-         
       }
         
       .descrip, .form{
@@ -338,14 +335,13 @@ height: 100%;
       border-left: 4px solid var(--primary-color);
       }
         
-      .descrip ul li {
+     .descrip ul li {
       margin: 10px 0;
       }
           
       .form{
        background: var(--secondary-color);
-    
-    }
+       }
         
       .form form{
       color: var(--font-light);
@@ -363,6 +359,9 @@ height: 100%;
       flex-wrap: wrap;
       }
       
+      
+
+
       label{
       color:var(--font-light);
       font-family: 'sans-serif';
@@ -397,6 +396,7 @@ height: 100%;
       .inrbox h3{
       font-size: 1.4rem;
        }
+
       .inrbox label{
        text-transform: uppercase;
        font-size: 0.9rem;
@@ -442,16 +442,14 @@ height: 100%;
       display: inline-block;
       font-size: 16px;
       }
-      
-
-
+  
 /*Booking confirmaiton page*/
 
  .bconfirm{
-  
   width: 100%;
   height: 490px;
   }
+
   .bconfirm p{
   text-align: center;
   }
@@ -482,7 +480,7 @@ height: 100%;
 /*Gallery of  Memories*/
 
   .memories h2{
-   font-size: 2rem;
+  font-size: 2rem;
   font-family:'Gentium Book Basic';
   text-align: center;
   padding: 2%;
@@ -507,65 +505,7 @@ height: 100%;
     transition: transform .2s;
   } 
        
-
-
 /*  Videos Gallery */
-
-#video-gallery{
-justify-content: center;
-align-items: center;
-}
-
-.flex-parent-element{
-display: flex;
-width: 100%;
-
-
- }
-
-#gale{
-flex: 1;
-margin: 5px;
- }
-
- #gale:first-child{
-  margin-right: 10px;
-}
-
-.flex-parent-element1{
-  display: flex;
-  width: 100%;
-  
-}
-
-#gale1{
-  flex: 1;
-  margin: 5px;
-}
-
-#gale1:first-child{
-  margin-right: 10px;
-}
-
-.flex-parent-element2{
-  display: flex;
-  width: 100%;
-   
-}
-
-#gale2{
-
-  flex: 1;
-  margin: 5px;
-}
-
-#gale2:first-child{
-  margin-right: 10px;
- 
-}
-
-
-
 
 
 .vi-section h2.title {
@@ -575,21 +515,65 @@ margin: 5px;
   font-size: 34px;
   margin-bottom: 24px;
   }
+
+  #video-gallery{
+display: flex;
+align-items: center;
+justify-content: center;
+  }
   
 
+.flex-parent-element{
+display: flex;
+width: 100%;
+height: auto;
+align-items: center;
+justify-content: center;
+ }
 
-
-
+#gale{
+flex: 1;
+margin: 5px;
+ }
 
  
-    
+ #gale:first-child{
+  margin-right: 10px;
+}
 
 
+.flex-parent-element1{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
 
+#gale1{
+  flex: 1;
+  margin: 5px;
+  }
 
+#gale1:first-child{
+margin-right: 10px;
+}
 
+.flex-parent-element2{
+display: flex;
+width: 100%; 
+height: auto;
+align-items: center;
+justify-content: center;
+}
 
+#gale2{
+  flex: 1;
+  margin: 5px;
+}
 
+#gale2:first-child{
+  margin-right: 10px;
+}
 
 
  /* Footer section */
@@ -633,21 +617,352 @@ margin: 5px;
   padding: 1%;
   color: #f7f6f6;
   }
+  /* ====================================== */
+              /* Media queries */
+/* =========================================== */
+
+@media screen and (max-width: 1286px) {
+
+.descrip p{
+  font-size: 13px;
+ }
+
+ .descrip ul{
+  font-size: 13.5px;
   
-  @media screen and (max-width: 480px) {
+  }
+
+textarea#message{
+  width: 335px;
+}
+select#activity, select#hability{
+  width: 170px;
+}
+input#appt{
+  width: 114px;
+  }
+label#interm, label#begi, label#advanc{
+  padding: 2px;
+  font-size: 13px;
+  }
+
+  .inrbox h3{
+    font-size: 15px;
+      }
+  .inrbox span{
+  font-size: 11px;
+    }
+
+ input#email1, input#name1{
+  width: 130px;
+ }   
+
+label#begi, label#interm, label#advanc{
+  font-size: 11px;
+}
+
+input#advance, input#intermediate, input#beginner{
+width: 11.5px;
+
+}
+ 
+  .descrip h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .community span{
+    color: #ad773e;
+        }
+  
+  .bconfirm h2{
+ margin-top: 20px;
+}
+}
+
+
+  @media screen and (max-width: 1224px) {
+
+textarea#message{
+width: 320px;
+}
+}
+
+
+ @media screen and (max-width: 1190px) {  
+
+  textarea#message{
+    width: 300px;
+  }
+
+  label#interm, label#begi, label#advanc{
+    padding: 0px;
+    font-size: 10px;
+    }
+   
+  .bconfirm h2{
+    margin-top: 20px;
+  }
+
+  label#habi, label#active{
+    font-size: 13.5px;
+  }
+
+  select#activity, select#hability{
+    width: 138px;
+ }
+
+ input#appt, input#appt1{
+  width: 125px;
+}
+
+
+input#name1 , input#email1{
+  width: 125px;
+}
+
+label#name, label#email, label#time, label#date{
+font-size: 14px;
+}
+}
+
+
+
+  @media screen and (max-width: 1095px) {
+
+
+textarea#message{
+width: 280px;
+}
+
+.descrip h2{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.descrip h3{
+  font-size: 19px;
+ }
+.memories h2{
+font-size: 28px;
+}
+
+form{
+  display:block;
+  flex-direction: column;
+}
+
+.inbox{
+  width: 200px;
+}
+  }
+
+
+/* 
+select#activity, select#hability{
+  width: 130px;
+}
+ 
+input#name1 , input#email1{
+  width: 125px;
+}
+  
+input#appt, input#appt1{
+  width: 125px;
+}
+
+label#habi, label#active{
+  font-size: 14px;
+}
+button.sub{
+  width: 107.59px;
+  margin: 0 8px 0 0;
+}
+.descrip h2{
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.community span{
+  color: #ad773e;
+      }
+
+.bconfirm h2{
+margin-top: 20px;
+} */
+
+
+
+/* @media screen and (max-width: 1128px) {
+
+  textarea#message{
+  width: 220px;
+  }
+  input#fname.input, input#email.input{
+    width: 220px;
+  }
+
+  .community span{
+    color: #ad773e;
+        }
+  
+}
+
+.descrip h2{
+font-size: 25px;
+}
+
+.descrip ul{
+  font-size: 10.5px;
+}
+
+button.sub, button.reset{
+    font-size: 10px;
+}
+  }
+   */
+   
+
+
+@media screen and (max-width: 767px) {
 
   .navbar{
     flex-direction: column;
     position: relative;
     }
 
-  .active{
-  display: block;
+  .navbar .branding{
+   width: 100%;
   }
 
-    .navbar .branding{
-    width: 100%;
-     }
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.nav-list{
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  padding-top: 0;
+  display: block;  
+}
+.nav-list .nav-links{
+  display: block;
+  border-top: 1px solid #fff;
+}
+ .navbar-menu {
+    font-size: 18px;
+  }
+
+  #hero-section h1{
+    font-size: 19px;
+    margin-bottom: 20px;
+    }
+  
+   a.book-btn{
+    margin-left: 157px;
+    font-size: 15px;
+    }  
+ 
+  .about-content h2{
+   font-size: 30px;
+   margin-bottom: 10px;
+  }
+ .about-content p{
+ font-size: 16px;
+  }
+ strong{
+  font-size: 16px;
+  }
+
+  .top-banner .banner{
+  height: auto;
+      }
+    
+ .banner p.title{
+   font-size: 10px;
+  }    
+
+  section .banner{
+  height: auto;
+    }
+   
+    
+  .community span{
+  color: #ad773e;
+      }
+
+/* contact section */
+
+.descrip h2{
+font-size: 20px;
+}
+.descrip p{
+font-size: 13px; 
+}
+textarea{
+width: 280px;
+}
+
+input#fname.input{
+width: 280px;
+}
+
+input#email.input{
+  width: 280px;
+}
+label#nam, label#ema, label#mesag{
+font-size: 13.5px;
+}
+
+button.reset{       
+padding: 2% 4%;
+font-size: 12px;
+}
+ 
+/* booking section */
+
+select#hability, select#activity{
+  width: 190px;
+}
+
+input{
+  width: 150px;
+}
+
+label#habi, label#active{
+  font-size: 13.8px;
+  }
+
+label#time, label#date, label#name, label#email{
+  font-size: 13.8px;
+}
+
+/* booking confirmation */
+
+.bconfirm h2{
+  margin-top: 20px;
+}
+/* video page section */
+
+h2#titl.title{
+  font-size: 22.5px;
+}
+ }
+
+
+ @media screen and (max-width: 480px) {
+
+  .navbar{
+    flex-direction: column;
+    position: relative;
+    }
+
+  .navbar .branding{
+   width: 100%;
+  }
 
   .menu {
     display: block;
@@ -671,12 +986,17 @@ margin: 5px;
   margin-left: 10px;
 }
  
-
 #hero-section h1{
 font-size: 18px;
 text-align: center;
 }
 
+a.book-btn{
+  margin-right: 135px;
+  font-size: 9px;
+  padding: 8px 11px;
+  
+  }
 
 .about .about-content{
   height: auto;
@@ -773,7 +1093,7 @@ input{
 
  button.sub, button.reset{       
  padding: 1% 2%;
- font-size:10px;
+ font-size: 10px;
  }
 
 /* Booking confirmation page */
@@ -820,190 +1140,4 @@ padding-top: 20px;
 }
 }
 
-@media screen and (max-width: 767px) {
-  
-  .navbar-menu {
-    font-size: 15px;
-  }
 
-  .navbar{
-    flex-direction: column;
-    position: relative;
-    }
-
-  
-  .navbar .branding{
-    width: 
-     }
-
-  .menu {
-    display: 
-    position: 
-    right: 
-    top: 
-}
-.nav-list{
-  list-style-type: 
-  width: 
-  text-align: 
-  padding-top: 
-  display: 
-}
-.nav-list .nav-links{
-  display: 
-  border-top: 
-}
-.logo{
-  margin-top: 
-  margin-left: 
-  
-}
-
-#hero-section h1{
-font-size: 
-text-align: 
-}
-
-.about .about-content{
-  height: auto;
-}
-  .about-content h2{
-    font-size: 
-  }
-  .about-content p{
-    font-size: 
-  }
-  strong{
-    font-size: 
-  }
-
-  p.title{
-    font-size: 
-  }
- h2.title{
-font-size: 
-
- }
-
-.top-banner .banner{
-height: 
-  }
-
-section .banner{
-  height: 
-}
-
-.community h2{
-  font-size: 
-}
-.community p{
-  font-size: 
-}
-
-/* booking page */
-
-.booking{
-  display:
-  flex-direction: 
-}
-
-.descrip, .form{
-  width: 
-  }
-
-.descrip h2{
-  font-size: 
-}
-.descrip p{
- font-size: 12px;
-}
-
-.descrip ul li{
-  font-size: 
-}
-
-textarea {
-width: 
-
-}
-
-input .inpbox {
-  flex-direction:
-}
-
-input .inrbox{
-flex-direction: 
-
-}
-  .inrbox label{
-  font-size: 
-  }
-  .inrbox h3{
-    font-size: 
-  }
-
-.inrbox span{
-font-size: 
-}
-  
-.form select {
-font-size: 
-}
-
-label{
-  font-size: 
-}
-input{
-  font-size: 
-}
-
- button.sub, button.reset{       
- padding: 
- font-size:
- }
-
-/* Booking confirmation page */
-.bconfirm p{
-  font-size: 
-}
-
-.bconfirm h2{
-font-size: 
-}
-
-.book-confirm p{
-font-size: 
-padding-top: 
-}
-
-.book-confirm h3{
-font-size: 
-padding-top: 
-}
-
-.bringback-home{
-  font-size: 
-  padding-top: 
-}
-
-/*gallery */
-.memories h2{
-font-size: 
-padding-top: 
-
-}
-
- /* footer */
-.copyright h3{
-  font-size: 
-}
-.copyright p{
-  font-size: 
-}
-
-.social-networks{
-  font-size:
-}
-
-
-}

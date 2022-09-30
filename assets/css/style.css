@@ -10,7 +10,7 @@ padding: 0;
 
 /* Global Styles */
 :root{
-    --primary-color:#09c0ee;
+    
     --secondary-color:#f4e6f6;
     --font-light: #808080;
     --other-color:#063c49;
@@ -18,7 +18,7 @@ padding: 0;
 
 body {
     font-family:'Gentium Book', Poppins, sans-serif;
-    background-color: #f8f8ff;
+    
 }
 
 h2{

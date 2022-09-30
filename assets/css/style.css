@@ -10,7 +10,7 @@ padding: 0;
 
 /* Global Styles */
 :root{
-    
+    --primary-color:#00c0ee;    
     --secondary-color:#f4e6f6;
     --font-light: #808080;
     --other-color:#063c49;
@@ -145,7 +145,7 @@ a.book-btn{
  .about-content span.quote{
   font-style: italic;
   text-align: left;
-  font-family: Gentium Book Basi;
+  font-family: 'Gentium Book Basic';
   color: var(--font-light);
   font-size: 1.2em;
   }

@@ -49,3 +49,18 @@ The home provides an informative video on how to ride a horse step by step for t
  ![banner](/assets/images/Readme-Images/no%20sure%20where%20to%20start.png)
 
  ![community](/assets/images/Readme-Images/comnity%20image%20with%20footer.png)
+
+ ## Booking
+ The booking page provided a detailed questionary about the rider and the  cost and duration of the training session. The user to choose how long the first section will last.
+ ![booking](/assets/images/Readme-Images/booking%20page.png)
+
+ ## Gallery
+ The page provides a display of the wonderful memories of the different activities taken place with the horse, either jumping, hacking or just those beautiful moments with the family. The images will zoom in when hover it.
+ ![gallery](/assets/images/Readme-Images/gallery%20images.png)
+
+ ## Contact
+The contact form was designed with the help of the Youtube videos https://www.youtube.com/watch?v=12Y007Pm0v0
+ The shape of an open book,  shadows and padding of the border create the illusion of 3D.
+The form shares the same characteristics as the booking page, only differing in the input fields. The idea of the contact form is to provide the user with an alternative way to contact the Riding Centre and request additional information if needed.
+![contact](/assets/images/Readme-Images/contact%20page.png)
+

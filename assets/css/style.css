@@ -229,12 +229,12 @@ section.vi-section {
  height: 100%;
 }
 
-/* #first-video{
+#first-video{
  transform: scale(1.2);
  transition: ease 100ms;
  transition: transform .2s;
  margin-bottom: 50px;
-} */
+}
 
 section .banner{
  width: 100%;

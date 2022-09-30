@@ -64,5 +64,30 @@ The contact form was designed with the help of the Youtube videos https://www.yo
 The form shares the same characteristics as the booking page, only differing in the input fields. The idea of the contact form is to provide the user with an alternative way to contact the Riding Centre and request additional information if needed.
 ![contact](/assets/images/Readme-Images/contact%20page.png)
 
-#Testing
-Code Validation
+# Testing
+
+*Code Validation
+    *The Riding Centre website has been tested. The code has been validated via the W3C HTML Validator,  and  W3C CSS Validator. 1 minor error was found when testing the HTML code with HTML Validation but fixed and documented below.
+
+*CSS Validation Image
+![CSS valid](/assets/images/Readme-Images/Testing%20css.png)
+*HTML Validation Image
+![HTML valid](/assets/images/Readme-Images/html%20valid.png)
+
+*Lighthouse Testing
+    *Performance - How the page performs whilst  loading.
+    *Accessibility - Is the site accessible for all users, and how can it be improved.
+    *Best Practices - The site conforms to industry best practices.
+    *SEO - Search Engine Optimisation. Is the site optimised for search engine result rankings.
+
+ ![lighthouse](/assets/images/Readme-Images/lighthouse.png)   
+
+ *Bugs Fixed
+     *HTML Validation
+ After putting the website through HTML Validation, I was presented with the following errors below:
+
+ ![html error](/assets/images/Readme-Images/error%20%20html%20validation.png)
+    *It said that the frameborder attribute on the iframe element ID is obsolete so after removing the frameborder attribute in the HTML code, it returned with no errors.
+
+
+

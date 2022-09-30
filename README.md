@@ -64,3 +64,5 @@ The contact form was designed with the help of the Youtube videos https://www.yo
 The form shares the same characteristics as the booking page, only differing in the input fields. The idea of the contact form is to provide the user with an alternative way to contact the Riding Centre and request additional information if needed.
 ![contact](/assets/images/Readme-Images/contact%20page.png)
 
+#Testing
+Code Validation

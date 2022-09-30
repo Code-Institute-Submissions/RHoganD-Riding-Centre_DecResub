@@ -66,7 +66,7 @@ The form shares the same characteristics as the booking page, only differing in 
 
 # Testing
 
-*Code Validation
+* Code Validation
     *The Riding Centre website has been tested. The code has been validated via the W3C HTML Validator,  and  W3C CSS Validator. 1 minor error was found when testing the HTML code with HTML Validation but fixed and documented below.
 
 * CSS Validation Image
@@ -98,7 +98,7 @@ The form shares the same characteristics as the booking page, only differing in 
 The site was completed as a part of a Full Stack Software Developer Diploma at the Code Institute and is my Portfolio Project 1. I would like to thank my mentor Mitko, who has been a great help in thi sproject. 
 Luke Walters, is always there when needed. His help is invaluable.
 Mike Ralph,  for the insight, provided with the responsiveness
-. Thank you for making this submission possible.
+Thanks to all of you for making this submission possible.
 
 # Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:

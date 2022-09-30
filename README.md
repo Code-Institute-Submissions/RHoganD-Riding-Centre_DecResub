@@ -6,16 +6,16 @@ This site will target individuals who have not yet tried to ride a horse and mig
 >Horses generate empathy with humans that other animals do not.
 The live site can be found here -[Riding Center](https://rhogand.github.io/Riding-Centre/)
 # Table of Content
-*Design
-*Features
-    *Existing Features
-        *Navigation bar and Logo
-        *Home
-            *Booking
-        *Gallery
-        *Contact    
-*Testing
-*Credits   
+* Design
+* Features
+    * Existing Features
+        * Navigation bar and Logo
+        * Home
+            * Booking
+        * Gallery
+        * Contact    
+* Testing
+* Credits   
 
 # Design 
 
@@ -69,25 +69,45 @@ The form shares the same characteristics as the booking page, only differing in 
 *Code Validation
     *The Riding Centre website has been tested. The code has been validated via the W3C HTML Validator,  and  W3C CSS Validator. 1 minor error was found when testing the HTML code with HTML Validation but fixed and documented below.
 
-*CSS Validation Image
+* CSS Validation Image
 ![CSS valid](/assets/images/Readme-Images/Testing%20css.png)
-*HTML Validation Image
+* HTML Validation Image
 ![HTML valid](/assets/images/Readme-Images/html%20valid.png)
 
-*Lighthouse Testing
-    *Performance - How the page performs whilst  loading.
-    *Accessibility - Is the site accessible for all users, and how can it be improved.
-    *Best Practices - The site conforms to industry best practices.
-    *SEO - Search Engine Optimisation. Is the site optimised for search engine result rankings.
+* Lighthouse Testing
+    * Performance - How the page performs whilst  loading.
+    * Accessibility - Is the site accessible for all users, and how can it be improved.
+    * Best Practices - The site conforms to industry best practices.
+    * SEO - Search Engine Optimisation. Is the site optimised for search engine result rankings.
 
  ![lighthouse](/assets/images/Readme-Images/lighthouse.png)   
 
- *Bugs Fixed
-     *HTML Validation
+ * Bugs Fixed
+     * HTML Validation
  After putting the website through HTML Validation, I was presented with the following errors below:
 
  ![html error](/assets/images/Readme-Images/error%20%20html%20validation.png)
-    *It said that the frameborder attribute on the iframe element ID is obsolete so after removing the frameborder attribute in the HTML code, it returned with no errors.
+   * It said that the frameborder attribute on the iframe element ID is obsolete so after removing the frameborder attribute in the HTML code, it returned with no errors.
 
+* Unfixed Bugs
 
+  The hamburger menu that I manage to create thanks to the Youtube videos. Did not perform as expected because of the error from Javascript. Tired to fix it as it was an undefine type error according to Chrome Develops tools, stating that the "toggle" cannot read the unknown class. I use website that helps to analyse the Javascript code, with no results. 
+  This error will be for the next course in Javascript. Where I will have a better understanding debugging Javascript.
 
+# Acknowledgments
+The site was completed as a part of a Full Stack Software Developer Diploma at the Code Institute and is my Portfolio Project 1. I would like to thank my mentor Mitko, who has been a great help in thi sproject. 
+Luke Walters, is always there when needed. His help is invaluable.
+Mike Ralph,  for the insight, provided with the responsiveness
+. Thank you for making this submission possible.
+
+# Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+*  In the GitHub repository, navigate to the Settings tab. On the left-hand side under GitHub Copilot, select Pages.
+*  From the source section drop-down menu, select the Master Branch. Once the master branch has been selected, the page will     display a notification about the data being saved. 
+* After that, you will see the link of your deployed project that indicates successful deployment.
+# Credits
+    ##Content
+ * The font came from Google Fonts
+ * The icons came from Font Awesome
+ * The booking Form cane from the Youtube video 

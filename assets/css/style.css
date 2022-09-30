@@ -96,7 +96,6 @@ transition: ease-in 300ms;
 #hero-section{
  background: url(../images/hero-horse-riding2.png) no-repeat center center;
  background-size: cover;
- background-color: var(--secondary-color);
  height: 100vh;
  display: flex;
  justify-content: center;

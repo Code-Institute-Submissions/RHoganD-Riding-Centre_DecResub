@@ -332,109 +332,108 @@ section .banner{
  border-left: 4px solid var(--primary-color);
  }
         
-     .descrip ul li {
-      margin: 10px 0;
+.descrip ul li {
+ margin: 10px 0;
+   }
+          
+.form{
+  background: var(--secondary-color);
+   }
+        
+.form form{
+ color: var(--font-light);
+ display: flex;
+ flex-wrap: wrap;
+  }
+        
+.inpbox.full{
+ width: 100%;
+ background: #fff;
+ padding: 3%;
+ margin-bottom: 20px;
+ display: flex;
+ flex-wrap: wrap;
       }
           
-      .form{
-       background: var(--secondary-color);
-       }
-        
-      .form form{
-      color: var(--font-light);
-      display: flex;
-      flex-wrap: wrap;
-      
-      }
-        
-      .inpbox.full{
-      width: 100%;
-      background: #fff;
-      padding: 3%;
-      margin-bottom: 20px;
-      display: flex;
-      flex-wrap: wrap;
-      }
-          
-      label{
-      color:var(--font-light);
-      font-family: 'sans-serif';
-      font-size: 1rem;
-      width: 150px;
+label{
+ color:var(--font-light);
+ font-family: 'sans-serif';
+ font-size: 1rem;
+ width: 150px;
       }
            
-      .form select{
-      border-bottom: 1px;
-      width: 48%;
-      color: var(--font-light);
-      padding: 0 4%;
+.form select{
+  border-bottom: 1px;
+  width: 48%;
+  color: var(--font-light);
+  padding: 0 4%;
+    }
+        
+form select:focus, .form input:focus{
+  outline: none;
+    }
+        
+.inpbox{
+  width: 48%;
+ background: #ffff;
+ padding: 3%;
+ margin-bottom: 20px;
+ margin-right: 2%;
       }
         
-      form select:focus, .form input:focus{
-      outline: none;
-      }
-        
-      .inpbox{
-      width: 48%;
-      background: #ffff;
-      padding: 3%;
-      margin-bottom: 20px;
-      margin-right: 2%;
-      }
-        
-      .inrbox{
-      width: 33%;
-      color: #000;
+.inrbox{
+ width: 33%;
+  color: #000;
       }
       
-      .inrbox h3{
-      font-size: 1.4rem;
-       }
+.inrbox h3{
+  font-size: 1.4rem;
+  }
 
-      .inrbox label{
-       text-transform: uppercase;
-       font-size: 0.9rem;
-      padding-right: 8px;
+.inrbox label{
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding-right: 8px;
       }
           
-      .inrbox span{
-      border: 0;
-      font-size: 14px;
-      padding-right: 5px;
+.inrbox span{
+  border: 0;
+ font-size: 14px;
+ padding-right: 5px;
+   }
+        
+.form input[type="radio"]{
+ width: unset;
       }
         
-      .form input[type="radio"]{
-      width: unset;
-      }
+button.sub, button.reset{       
+ padding: 2% 3%;
+ font-weight: 700;
+ text-transform: uppercase;
+ border: 0;
+   }
         
-      button.sub, button.reset{       
-      padding: 2% 3%;
-      font-weight: 700;
-      text-transform: uppercase;
-      border: 0;
-      }
-        
-      button.sub{
-      margin-right: 3%;
-      background: var(--primary-color);
-      border: none;
-      color: black;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
+button.sub{
+ margin-right: 3%;
+ background: var(--primary-color);
+ border: none;
+ color: black;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
       }
           
-      button.reset{
-      background: #000;
-      color: #fff;
-      border: none;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
+button.reset{
+ background: #000;
+ color: #fff;
+ border: none;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
       }
   
 /*Booking confirmaiton page*/
@@ -544,7 +543,7 @@ section .banner{
               /* Media queries */
 /* =========================================== */
 
-@media screen and (max-width: 1286px) {
+ @media screen and (max-width: 1286px) {
 
 .descrip p{
   font-size: 13px;
@@ -558,21 +557,24 @@ section .banner{
 textarea#message{
   width: 335px;
 }
+
 select#activity, select#hability{
   width: 170px;
 }
+
 input#appt{
   width: 114px;
   }
+
 label#interm, label#begi, label#advanc{
   padding: 2px;
   font-size: 13px;
   }
 
-  .inrbox h3{
+.inrbox h3{
     font-size: 15px;
       }
-  .inrbox span{
+.inrbox span{
   font-size: 11px;
     }
 
@@ -589,18 +591,18 @@ width: 11.5px;
 
 }
  
-  .descrip h2{
-    font-size: 30px;
+.descrip h2{
+   font-size: 30px;
     margin-bottom: 15px;
   }
   
-  .community span{
-    color: #ad773e;
+ .community span{
+  color: #ad773e;
         }
   
-  .bconfirm h2{
- margin-top: 20px;
-}
+.bconfirm h2{
+  margin-top: 20px;
+ }
 }
 
 
@@ -683,7 +685,7 @@ font-size: 14px;
  .descrip p{
   padding: 0;
   margin: 10px;
- }
+  }
 
  button.reset, button.sub{
   width: 265px;
@@ -692,7 +694,7 @@ font-size: 14px;
 }
 
 
-  @media screen and (max-width: 1095px) {
+ @media screen and (max-width: 1095px) {
 
 
 textarea#message{
@@ -743,7 +745,7 @@ button.reset, button.sub{
 
   }
 
-@media screen and (max-width: 956px){
+ @media screen and (max-width: 956px){
 
 
  .descrip ul{
@@ -756,7 +758,7 @@ button.reset, button.sub{
  font-size: 11px;
  }
 
- 
+}
 
 @media screen and (max-width: 860px) {
 
@@ -782,6 +784,7 @@ button.reset, button.sub{
   padding-top: 10px;
   display: block;  
 }
+
 .nav-list .nav-links{
   display: block;
   border-top: 1px solid #fff;
@@ -797,43 +800,43 @@ button.reset, button.sub{
   width: 100%
   }
 
-   .descrip h2{
-    font-size: 27px;
-    }
-    .descrip p{
-    font-size: 14px; 
-    padding-top: 10px;
+.descrip h2{
+font-size: 27px;
     }
 
-   .descrip ul{
-   font-size: 14px;
+.descrip p{
+  font-size: 14px; 
+ padding-top: 10px;
+    }
+
+.descrip ul{
+ font-size: 14px;
    }
     
-   .inrbox h3{
-    font-size: 16px;
+.inrbox h3{
+  font-size: 16px;
        }
 
-   .inrbox span{ 
-    font-size: 13px;
+ .inrbox span{ 
+  font-size: 13px;
    }
 
 
-      select#hability, select#activity{
-      width: 300px;
+select#hability, select#activity{
+  width: 300px;
     }
        
     
-    label#habi, label#active{
-      font-size: 14px;
-  
-      }
+ label#habi, label#active{
+     font-size: 14px;
+        }
     
-    label#time, label#date, label#name, label#email{
-      font-size: 14px;
+label#time, label#date, label#name, label#email{
+  font-size: 14px;
     }
 
 input#name1, input#email1{
-      width: 405px;
+  width: 405px;
     }
     
 input#appt, input#appt1{
@@ -845,14 +848,14 @@ font-size: 12px;
 width: 250px;
   }
     
-    .bconfirm h2{
-      margin-top: 20px;
-      font-size: 28px;
+.bconfirm h2{
+  margin-top: 20px;
+  font-size: 28px;
     }
     
-    input#beginner, input#intermediate, input#advance{
-      width: 13px;
-      padding-left: 5px;
+input#beginner, input#intermediate, input#advance{
+ width: 13px;
+ padding-left: 5px;
   } 
 
 
@@ -865,13 +868,12 @@ textarea#message{
   width: 470px;
 }
 
-}
 input#fname.input, input#email.input{
   width: 220px;
-}
+  }
 }
   
-@media screen and (max-width: 767px) {
+ @media screen and (max-width: 767px) {
   #hero-section h1{
     font-size: 19px;
     margin-bottom: 20px;
@@ -883,51 +885,54 @@ input#fname.input, input#email.input{
     }  
  
   .about-content h2{
-   font-size: 30px;
-   margin-bottom: 10px;
-  }
+    font-size: 30px;
+    margin-bottom: 10px;
+   }
+
  .about-content p{
  font-size: 14.5px;
   }
- strong{
+
+strong{
   font-size: 14.5px;
   }
 
-  .top-banner .banner{
+.top-banner .banner{
   height: auto;
-  
-      }
+   }
     
- .banner p.title{
+.banner p.title{
    font-size: 12.5px;
   }    
 
-  section .banner{
+section .banner{
   height: auto;
-    }
+   }
    
 .descrip h2{
 font-size: 25px;
 }
+
 .descrip strong{
   font-size: 25px;
   }
 
 .descrip p{
-font-size: 13px; 
-}
+ font-size: 13px; 
+ }
 
 
 input#fname.input{
-width: 280px;
+ width: 280px;
 }
 
 input#email.input{
   width: 280px;
 }
+
 label#nam, label#ema, label#mesag{
-font-size: 13.5px;
-}
+ font-size: 13.5px;
+ }
 
 button.reset button.sub{   
   padding: 15px 32px;
@@ -947,29 +952,29 @@ label#habi, label#active{
 
 label#time, label#date, label#name, label#email{
   font-size: 13.8px;
-}
+ }
 
 .bconfirm h2{
   margin-top: 20px;
-}
+ }
 
 }
 
 @media screen and (max-width: 650px) {
 
-  textarea#message{
-    width: 400px;
+textarea#message{
+ width: 400px;
   }
 
   
 input .inpbox {
   flex-direction: row;
-}
+ }
 
 input .inrbox{
-flex-direction: row;
-}
-}
+ flex-direction: row;
+ }
+ }
 
  @media screen and (max-width: 551px) {
 
@@ -977,36 +982,39 @@ flex-direction: row;
 .logo{
   margin-top: 10px;
   margin-left: 10px;
-}
+ }
  
 #hero-section h1{
-font-size: 18px;
-text-align: center;
-}
+ font-size: 18px;
+ text-align: center;
+ }
 
 .about .about-content{
   height: auto;
 }
-  .about-content h2{
-    font-size: 24px;
+
+.about-content h2{
+  font-size: 24px;
+
   }
-  .about-content p{
-    font-size: 13.5px;
-  }
-  strong{
-    font-size: 13.5px;
+.about-content p{
+   font-size: 13.5px;
   }
 
-  p.title{
-    font-size: 13.5px;
+strong{
+  font-size: 13.5px;
+  }
+
+p.title{
+  font-size: 13.5px;
   }
  h2.title{
-font-size: 18px;
+  font-size: 18px;
 
  }
 
 .top-banner .banner{
-height: auto;
+  height: auto;
   }
 
 section .banner{
@@ -1022,51 +1030,51 @@ section .banner{
 
 .descrip h2{
   font-size: 18px;
-}
+ }
+
 .descrip p{
  font-size: 13.5px; 
-}
+ }
 
 .descrip ul li{
   font-size: 12.5px; 
-}
+ }
 
 input#name1, input#email1{
   width: 340px;
-}
+ }
 
 input#appt, input#appt1{
-width: 290px;
-}
+ width: 290px;
+ }
 
 textarea#message{
   width: 340px;
-
 }
 
 
 input .inpbox {
   flex-direction: row;
-}
+ }
 
 input .inrbox{
-flex-direction: row;
+ flex-direction: row;
 
-}
-  .inrbox label{
+ }
+ .inrbox label{
   font-size: 10px;
   }
-  .inrbox h3{
-    font-size: 12px;
+.inrbox h3{
+  font-size: 12px;
   }
 
 .inrbox span{
-font-size: 10px;
-}
+  font-size: 10px;
+ }
   
 .form select {
-font-size: 10px;
-}
+ font-size: 10px;
+ }
 
 label{
   font-size: 12px;
@@ -1076,8 +1084,8 @@ input{
 }
 
  button.sub, button.reset{       
- padding: 5px;
- font-size: 12px;
+  padding: 5px;
+  font-size: 12px;
  } 
 
 .bconfirm p{
@@ -1085,18 +1093,18 @@ input{
 }
 
 .bconfirm h2{
-font-size: 20px;
+ font-size: 20px;
 }
 
 .book-confirm p{
-font-size: 12px;
-padding-top: 5px;
+ font-size: 12px;
+ padding-top: 5px;
 }
 
 .book-confirm h3{
-font-size: 14px;
-padding-top: 5px;
-}
+ font-size: 14px;
+ padding-top: 5px;
+ }
 
 .bringback-home{
   font-size: 10px;
@@ -1104,9 +1112,8 @@ padding-top: 5px;
 }
 
 .memories h2{
-font-size: 20px;
-padding-top: 20px;
-
+ font-size: 20px;
+ padding-top: 20px;
 }
 
 .copyright h3{
@@ -1118,12 +1125,12 @@ padding-top: 20px;
 
 .social-networks{
  font-size: 50%;
- }
+  }
 }
 @media screen and (max-width: 480px){
 
-  textarea#message{
-    width: 250px;
+textarea#message{
+  width: 250px;
 } 
   
 input#name1, input#email1{
@@ -1131,24 +1138,24 @@ input#name1, input#email1{
 }
 
 input#appt, input#appt1{
-width: 250px;
-}
+ width: 250px;
+ }
 
 
 input#fname.input{
-  width: 250px;
+ width: 250px;
   }
   
 input#email.input{
-    width: 250px;
+ width: 250px;
   }
+ 
   
-  
-  .inrbox{
-  
-    display:inline-table;
+.inrbox{
+ display:inline-table;
   }
-  input#beginner, input#intermediate, input#advance{
+
+input#beginner, input#intermediate, input#advance{
     width: 7px;
 }
 

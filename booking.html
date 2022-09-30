@@ -1,163 +1,163 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="horse riding centre for horse lovers in helensburgh, scotland">
-    <meta name="keyword" content="horse ridiing, riding, horse, helensburgh, scoltand">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Riding Centre</title>
-</head>
-<body>
-  <header>
-      
-    <nav class="navbar">
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="horse riding centre for horse lovers in helensburgh, scotland">
+      <meta name="keyword" content="horse ridiing, riding, horse, helensburgh, scoltand">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Riding Centre</title>
+  </head>
+  <body>
+    <header>
+        
+      <nav class="navbar">
 
-       <div class="branding">   
- <a href="index.html"><img id="logo" src="assets/images/logo2.png" alt="logo"/></a> 
+        <div class="branding">   
+  <a href="index.html"><img id="logo" src="assets/images/logo2.png" alt="logo"/></a> 
+            </div>
+
+    <div class="navbar-menu">
+
+    <ul class="nav-list">
+      <li class="nav-links"><a href="index.html">Home</a></li>
+      <li class="nav-links"><a href="gallery.html">Gallery</a></li>
+      <li class="nav-links"><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+    <div class="menu" id="menuline">
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+    </div>
+
+  </nav>
+  </header>
+  <!--Booking form-->
+
+    <section>
+    
+      <div class="container-booking">
+          <div class="booking">
+
+          <div class="descrip">
+          <h2><strong>Book</strong> your ride</h2>
+
+          <p>Please choose your activity and then your riding ability (please be honest!)
+          and finally the date and time you wish to come.
+          Do not overstate your riding ability as it is both dangerous for you and others. 
+          You will not be allowed to ride if you are not the correct standard for your chosen activity 
+          and no refunds will be given</p>
+          
+          <div class="quote">
+          <p>Our instructors are BHS qualified and our aim is to help you enjoy and understand horses.
+          All our horses are used for dressage, showjumping and cross-country, 
+          working at a variety of levels to suit the rider and have very good temperament.</p>
           </div>
+          <ul>
+          <li>Reliable service</li>
+          <li>Indoor and outdoor arena</li>
+          <li>63 years of experience</li>
+          <li>Training for the British Horse Society (BHS) Examinations.</li>
+          </ul>
+          </div>
+          <div class="form">
+          <form action="bookingconfirmation.html" method=get>
+          <div class="inpbox full">
 
-  <div class="navbar-menu">
+          <label id="habi" for="hability">I Consider to be: </label>     
+          <select id="hability">
+          <option value="">Please select</option>
+          <option value="">Child beginner (Min 10years old)</option>
+          <option value="">Never ridden before</option>
+          <option value="">Beginner</option>
+          <option value="">Novice (Competent in walk/trot/canter)</option>
+          <option value="">Intermediate</option>
+          <option value="">Advance</option>
+          </select>
+          </div>
+          <div class="inpbox full">
 
-   <ul class="nav-list">
-     <li class="nav-links"><a href="index.html">Home</a></li>
-     <li class="nav-links"><a href="gallery.html">Gallery</a></li>
-     <li class="nav-links"><a href="contact.html">Contact</a></li>
-   </ul>
- </div>
+          <label id="active" for="activity">My Riding Ability is: </label>
+          <select id="activity">
+          <option value="">Please select</option>
+          <option value="">Trekking</option>
+          <option value="">Walk / Trot / canter</option>
+          <option value="">Riding at a walk</option>
+          <option value="">Trotting with Stirrups</option>
+          <option value="">Trotting without Stirrups</option>
+          <option value="">Jumping</option>
+          <option value="">Hacking</option>
+          </select>
+          </div>
+          
+          <div class="inpbox">
+          <label id="time" for="appt"> Select time: </label><input type="time" id="appt" name="appt" placeholder="Pickup Time">
+          </div>
+          
+          <div class="inpbox">
+          <label id="date" for="date">Select date: </label><input type="date" id="appt1" placeholder="Pickup Date">
+          </div>
+                  
+          <div class="inpbox">
+          <label id="name">Name: </label><input id="name1" type="text" placeholder="Full name" required>
+          </div>
+          
+          <div class="inpbox">
+          <label id="email">Email: </label><input id="email1" type="text" placeholder="Email Address" required>
+          </div>
+          
+          <div class="inpbox full">
+          <div class="inrbox">
+          <label id="begi" for="biginner">Beginner</label>
+          <input type="radio" name=option id=beginner value="biginner">
+          <h3>£40</h3>
+          <span>1/2hr session</span>
+          </div>
+          
+          <div class="inrbox">
+              <label id="interm" for="intermediate">Intermediate</label>
+              <input type="radio" name=option id=intermediate value="intermediate">
+          <h3>£80</h3>
+          <span>1hr session</span>
+          </div>
+          
+          <div class="inrbox">
+              <label id="advanc" for="advance">Advance</label>
+              <input type="radio" name=option id=advance value="advance">
+          <h3>£120</h3>
+          <span>2hr session</span>
+          </div>
+          </div>
+          <button class="sub" type=submit><strong>Submit</strong></button>
+          <button class="reset" type="reset">Reset</button>
+          </form>
+          </div>
+          </div>
+        </div>     
 
-   <div class="menu" id="menuline">
-     <div class="menu-line"></div>
-     <div class="menu-line"></div>
-     <div class="menu-line"></div>
-   </div>
+      </section>
 
- </nav>
-</header>
-<!--Booking form-->
-
-  <section>
-  
-    <div class="container-booking">
-        <div class="booking">
-
-        <div class="descrip">
-        <h2><strong>Book</strong> your ride</h2>
-
-        <p>Please choose your activity and then your riding ability (please be honest!)
-         and finally the date and time you wish to come.
-        Do not overstate your riding ability as it is both dangerous for you and others. 
-        You will not be allowed to ride if you are not the correct standard for your chosen activity 
-        and no refunds will be given</p>
-        
-        <div class="quote">
-        <p>Our instructors are BHS qualified and our aim is to help you enjoy and understand horses.
-        All our horses are used for dressage, showjumping and cross-country, 
-        working at a variety of levels to suit the rider and have very good temperament.</p>
+    <footer>
+      <div class="copyright">
+      <h3>Riding centre | Code Institute Project 1</h3>
+      <p>Copyright © All Rights Reserved | 30 September 2022</p>
         </div>
-        <ul>
-        <li>Reliable service</li>
-        <li>Indoor and outdoor arena</li>
-        <li>63 years of experience</li>
-        <li>Training for the British Horse Society (BHS) Examinations.</li>
+
+      <div>
+        <ul class="social-networks">
+      <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page (opens in a new tab"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page (opens in a new tab"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens in a new tab"><i class="fa-brands fa-youtube"></i></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in a new tab"><i class="fa-brands fa-instagram"></i></a></li>
         </ul>
-        </div>
-        <div class="form">
-        <form action="bookingconfirmation.html" method=get>
-        <div class="inpbox full">
+  </div>
+  </footer>
 
-        <label id="habi" for="hability">I Consider to be: </label>     
-        <select id="hability">
-        <option value="">Please select</option>
-        <option value="">Child beginner (Min 10years old)</option>
-        <option value="">Never ridden before</option>
-        <option value="">Beginner</option>
-        <option value="">Novice (Competent in walk/trot/canter)</option>
-        <option value="">Intermediate</option>
-        <option value="">Advance</option>
-        </select>
-        </div>
-        <div class="inpbox full">
+  <!--font awesome script-->
+  <script src="https://kit.fontawesome.com/fc632b9fc3.js" crossorigin="anonymous"></script>
 
-        <label id="active" for="activity">My Riding Ability is: </label>
-        <select id="activity">
-        <option value="">Please select</option>
-        <option value="">Trekking</option>
-        <option value="">Walk / Trot / canter</option>
-        <option value="">Riding at a walk</option>
-        <option value="">Trotting with Stirrups</option>
-        <option value="">Trotting without Stirrups</option>
-        <option value="">Jumping</option>
-        <option value="">Hacking</option>
-        </select>
-        </div>
-        
-        <div class="inpbox">
-        <label id="time" for="appt"> Select time: </label><input type="time" id="appt" name="appt" placeholder="Pickup Time">
-        </div>
-        
-        <div class="inpbox">
-        <label id="date" for="date">Select date: </label><input type="date" id="appt1" placeholder="Pickup Date">
-        </div>
-                
-        <div class="inpbox">
-        <label id="name">Name: </label><input id="name1" type="text" placeholder="Full name" required>
-        </div>
-        
-        <div class="inpbox">
-        <label id="email">Email: </label><input id="email1" type="text" placeholder="Email Address" required>
-        </div>
-        
-        <div class="inpbox full">
-        <div class="inrbox">
-        <label id="begi" for="biginner">Beginner</label>
-        <input type="radio" name=option id=beginner value="biginner">
-        <h3>£40</h3>
-        <span>1/2hr session</span>
-        </div>
-        
-        <div class="inrbox">
-            <label id="interm" for="intermediate">Intermediate</label>
-            <input type="radio" name=option id=intermediate value="intermediate">
-        <h3>£80</h3>
-        <span>1hr session</span>
-        </div>
-        
-        <div class="inrbox">
-            <label id="advanc" for="advance">Advance</label>
-            <input type="radio" name=option id=advance value="advance">
-        <h3>£120</h3>
-        <span>2hr session</span>
-        </div>
-        </div>
-        <button class="sub" type=submit><strong>Submit</strong></button>
-         <button class="reset" type="reset">Reset</button>
-        </form>
-        </div>
-         </div>
-       </div>     
-
-    </section>
-
-  <footer>
-    <div class="copyright">
-    <h3>Riding centre | Code Institute Project 1</h3>
-     <p>Copyright © All Rights Reserved | 30 September 2022</p>
-       </div>
-
-    <div>
-      <ul class="social-networks">
-    <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page (opens in a new tab"><i class="fa-brands fa-facebook"></i></a></li>
-     <li><a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page (opens in a new tab"><i class="fa-brands fa-twitter"></i></a></li>
-    <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens in a new tab"><i class="fa-brands fa-youtube"></i></a></li>
-    <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in a new tab"><i class="fa-brands fa-instagram"></i></a></li>
-      </ul>
-</div>
-</footer>
-
-<!--font awesome script-->
-<script src="https://kit.fontawesome.com/fc632b9fc3.js" crossorigin="anonymous"></script>
-
-</body>
-</html>
+  </body>
+  </html>

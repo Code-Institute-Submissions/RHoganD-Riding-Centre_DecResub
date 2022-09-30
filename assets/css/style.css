@@ -94,21 +94,19 @@ transition: ease-in 300ms;
 /* Hero image section */
 
 #hero-section{
-background: url(../images/hero-horse-riding2.png) no-repeat center center;
-background-size: cover;
-background-color: var(--secondary-color);
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
+ background: url(../images/hero-horse-riding2.png) no-repeat center center;
+ background-size: cover;
+ background-color: var(--secondary-color);
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 } 
 
-
-
 #hero-section h1{
-font-family: 'Gentium Book Basic';
-color: #fff;
-margin-bottom: 0.5em;
+ font-family: 'Gentium Book Basic';
+ color: #fff;
+ margin-bottom: 0.5em;
 }
 
 .hero-container {
@@ -121,8 +119,7 @@ margin-bottom: 0.5em;
   text-decoration: none;
   padding: 0.7em 1em;
   border-radius: 8px;
- 
-}
+ }
 
 a.book-btn{
   margin-left: 16rem;
@@ -136,7 +133,7 @@ a.book-btn{
   
   /* Welcome & about us section*/   
 
-  #about-section{
+ #about-section{
   width: 100%;
   height: 350px;
   margin-top: 30px;
@@ -146,194 +143,194 @@ a.book-btn{
   text-align: center;
   }
   
-  .about-content span.quote{
+ .about-content span.quote{
   font-style: italic;
   text-align: left;
   font-family: Gentium Book Basi;
   color: var(--font-light);
   font-size: 1.2em;
-    }
+  }
   
         
  /*Banner cros page info */
 .banner{
-background-color: #277487;
-width: 100%;
-margin-bottom: 50px;
-}
+ background-color: #277487;
+ width: 100%;
+ margin-bottom: 50px;
+} 
 
 .top-banner .banner{
-width: 100%;
-height: 150px;
+ width: 100%;
+ height: 150px;
 }
 
 .banner .title{
-  color: #fff
+ color: #fff
+ }
+  
+.fa-circle-check{
+ color: #fff;
+ font-size: 1.23em
+ }
+  
+h2.title{
+ font-size: 24px;
+ color:var(--font-light);
+ padding-top: 15px;
   }
   
-  .fa-circle-check{
-  color: #fff;
-  font-size: 1.23em
-  }
+p.title{
+ color: var(--font-light);
+ font-size: 16px;
+ font-family:'Poppins';
+ padding-top: 5px;
+ margin-top: 5px;
+ margin-bottom: 10px;
+ }
   
-  h2.title{
-  font-size: 24px;
-  color:var(--font-light);
-  padding-top: 15px;
-  }
+.title strong{
+ color: var(--primary-color);
+ font-weight: 300;
+ line-height: 22px;
+ } 
   
-  p.title{
-  color: var(--font-light);
-  font-size: 16px;
-  font-family:'Poppins';
-  padding-top: 5px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  }
-  
-  .title strong{
-  color: var(--primary-color);
-  font-weight: 300;
-  line-height: 22px;
-  } 
-  
-  .title a{
-  color: #fff;  
-  }
+.title a{
+ color: #fff;  
+ }
   
 /* --Video beginner section */
 
 section.vi-section {
-display: flex;
-justify-content: center;
-align-items: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .beginner-container{
-flex: 1 1 55%;
-flex-wrap: wrap;
-max-width: 700px;
-margin: 2.5em;
-margin-top: 80px;
-  }
+ flex: 1 1 55%;
+ flex-wrap: wrap;
+ max-width: 700px;
+ margin: 2.5em;
+ margin-top: 80px;
+ }
   
 .video{
-position: relative;
-padding-bottom: 56.25%;
-height: 0;
+ position: relative;
+ padding-bottom: 56.25%;
+ height: 0;
 }
   
-  
 .video iframe{
-border: 3px solid #fff;
-border-color: #ad773e;
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+ border: 3px solid #fff;
+ border-color: #ad773e;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
 }
 
 #first-video{
-  transform: scale(1.3);
-  transition: ease 100ms;
-  transition: transform .2s;
-  margin-bottom: 50px;
+ transform: scale(1.2);
+ transition: ease 100ms;
+ transition: transform .2s;
+ margin-bottom: 50px;
 }
 
 section .banner{
-  width: 100%;
-  padding-bottom: 15px;
-  height: auto;
+ width: 100%;
+ padding-bottom: 15px;
+ height: auto;
 }
 
 /* Community section */
   
-  .community{
-    background: url(../images/Pony-Day-The-Grove.png) no-repeat center center;
-    background-size: cover;
-    height: 550px;
-    text-align: center;
-      }
+.community{
+ background: url(../images/Pony-Day-The-Grove.png) no-repeat center center;
+ background-size: cover;
+ height: 550px;
+ text-align: center;
+  }
 
-    .community h2{
-    color: #fff;
-     }
+ .community h2{
+  color: #fff;
+  }
 
-    .community p{
-     color: #fff; 
-    } 
+.community p{
+ color: #fff; 
+ } 
 
-    .community a{
-     color:#fff;
-    text-decoration:underline;
-    }
+.community a{
+ color:#fff;
+ text-decoration:underline;
+ }
     
-   /* Booking & Contact page */
+ /* Booking & Contact page */
 
-    .container-booking{
-      width: 90%;
-      margin: 0 auto;
-      }
+.container-booking{
+ width: 90%;
+ margin: 0 auto;
+  }
         
-      .booking{
-      box-shadow: 0px 5px 13px -3px rgba(0,0,0,0.75);
-      display:flex;
-      flex-wrap: wrap;
-      }
+.booking{
+ box-shadow: 0px 5px 13px -3px rgba(0,0,0,0.75);
+ display:flex;
+ flex-wrap: wrap;
+  }
         
-      .descrip, .form{
-      width: 45%;
-      padding: 5%;
-      }
+.descrip, .form{
+ width: 45%;
+ padding: 5%;
+ }
        
-      .descrip h2{
-      text-transform:uppercase;
-      color: var(--font-light);
-      font-weight: 400;
-      margin-top: 0;
-      }
+.descrip h2{
+ text-transform:uppercase;
+ color: var(--font-light);
+ font-weight: 400;
+ margin-top: 0;
+ }
         
-      .descrip h2 strong{
-      font-weight: 700;
-      color: #000;
-      }
+.descrip h2 strong{
+ font-weight: 700;
+ color: #000;
+ }
         
-      .descrip p{
-      color: var(--font-light);
-      font-size: 14px;
-      line-height: 22px;
-      }
+.descrip p{
+ color: var(--font-light);
+ font-size: 14px;
+ line-height: 22px;
+ }
         
-      .descrip ul{
-      padding-left: 16px;
-      list-style: circle;
-      }
+.descrip ul{
+ padding-left: 16px;
+ list-style: circle;
+ }
        
-      .fa-phone{
-      color: #a77037;
-      font-size: 1.25em
-       }
-      .fa-envelope{
-      color: #ad773e;
-      font-size: 1.25em
-      }
+.fa-phone{
+ color: #a77037;
+ font-size: 1.25em
+ }
+
+.fa-envelope{
+  color: #ad773e;
+  font-size: 1.25em
+  }
       
-      .fa-mailbox{
-      color: #ad773e;
-      font-size: 1.25em
-      }
+.fa-mailbox{
+ color: #ad773e;
+ font-size: 1.25em
+  }
       
-      .fa-address-card{
-      color: #ad773e;
-      font-size: 1.25em
-      }
+.fa-address-card{
+ color: #ad773e;
+ font-size: 1.25em
+ }
       
-      .quote p{
-      font-style: italic;
-      padding: 2%;
-      border-left: 4px solid var(--primary-color);
-      }
+.quote p{
+ font-style: italic;
+ padding: 2%;
+ border-left: 4px solid var(--primary-color);
+ }
         
      .descrip ul li {
       margin: 10px 0;
@@ -413,7 +410,7 @@ section .banner{
       button.sub, button.reset{       
       padding: 2% 3%;
       font-weight: 700;
-      text-transform: upercase;
+      text-transform: uppercase;
       border: 0;
       }
         
@@ -470,7 +467,6 @@ section .banner{
   text-align: left;
   font-weight: 400;
   font-family: 'Gentium Book Basic';
-  font-display: block;
   } 
   
 
@@ -502,76 +498,6 @@ section .banner{
     transition: transform .2s;
   } 
        
-/*  Videos Gallery */
-
-
-.vi-section h2.title {
-  text-align: center;
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 34px;
-  margin-bottom: 24px;
-  }
-
-  #video-gallery{
-display: flex;
-align-items: center;
-justify-content: center;
-  }
-  
-
-.flex-parent-element{
-display: flex;
-width: 100%;
-height: auto;
-align-items: center;
-justify-content: center;
- }
-
-#gale{
-flex: 1;
-margin: 5px;
- }
-
- 
- #gale:first-child{
-  margin-right: 10px;
-}
-
-
-.flex-parent-element1{
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-#gale1{
-  flex: 1;
-  margin: 5px;
-  }
-
-#gale1:first-child{
-margin-right: 10px;
-}
-
-.flex-parent-element2{
-display: flex;
-width: 100%; 
-height: auto;
-align-items: center;
-justify-content: center;
-}
-
-#gale2{
-  flex: 1;
-  margin: 5px;
-}
-
-#gale2:first-child{
-  margin-right: 10px;
-}
-
 
  /* Footer section */
  footer {
@@ -725,6 +651,47 @@ font-size: 14px;
 
 
 
+@media screen and (max-width: 1110px) {
+
+  textarea#message{
+    width: 230px;
+    }
+
+  select#hability, select#activity{
+    width: 250px;
+  }
+  
+   
+  .inrbox{
+  
+    display:inline-table;
+  }
+  input#beginner, input#intermediate, input#advance{
+    width: 8px;
+}
+
+
+.descrip h2{
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.descrip h3{
+  margin-bottom: 25px;
+ }
+
+ .descrip p{
+  padding: 0;
+  margin: 10px;
+ }
+
+ button.reset, button.sub{
+  width: 265px;
+}
+
+}
+
+
   @media screen and (max-width: 1095px) {
 
 
@@ -771,54 +738,10 @@ label#acive, label#habi{
 }
 
 button.reset, button.sub{
-  width: 315px;
+  width: 270px;
 }
 
   }
-
-
-@media screen and (max-width: 1110px) {
-
-  textarea#message{
-    width: 230px;
-    }
-
-  select#hability, select#activity{
-    width: 250px;
-  }
-  
-  button.reset, button.sub{
-    width: 290px;
-  }
-  
-  .inrbox{
-  
-    display:inline-table;
-  }
-  input#beginner, input#intermediate, input#advance{
-    width: 8px;
-}
-
-
-.descrip h2{
-  font-size: 22px;
-  margin-bottom: 15px;
-}
-
-.descrip h3{
-  margin-bottom: 25px;
- }
-
- .descrip p{
-  padding: 0;
-  margin: 10px;
- }
-
- button.reset, button.sub{
-  width: 300px;
-}
-
-}
 
 @media screen and (max-width: 956px){
 
@@ -909,7 +832,7 @@ button.reset, button.sub{
       font-size: 14px;
     }
 
-    input#name1, input#email1{
+input#name1, input#email1{
       width: 405px;
     }
     
@@ -919,7 +842,7 @@ input#appt, input#appt1{
 
 button.reset button.sub{   
 font-size: 12px;
- 
+width: 250px;
   }
     
     .bconfirm h2{
@@ -1006,9 +929,8 @@ label#nam, label#ema, label#mesag{
 font-size: 13.5px;
 }
 
-button.reset{       
-padding: 2% 4%;
-font-size: 12px;
+button.reset button.sub{   
+  padding: 15px 32px;
 }
 
 select#hability, select#activity{
@@ -1051,14 +973,6 @@ flex-direction: row;
 
  @media screen and (max-width: 551px) {
 
-/* .navbar{
-    flex-direction: column;
-    position: relative;
-    }
-
-  .navbar .branding{
-   width: 100%;
-  } */
 
 .logo{
   margin-top: 10px;
@@ -1209,24 +1123,37 @@ padding-top: 20px;
 @media screen and (max-width: 480px){
 
   textarea#message{
-    width: 300px;
+    width: 250px;
 } 
   
 input#name1, input#email1{
-  width: 300px;
+  width: 250px;
 }
 
 input#appt, input#appt1{
-width: 200x;
+width: 250px;
 }
+
 
 input#fname.input{
   width: 250px;
   }
   
-  input#email.input{
+input#email.input{
     width: 250px;
   }
   
+  
+  .inrbox{
+  
+    display:inline-table;
+  }
+  input#beginner, input#intermediate, input#advance{
+    width: 7px;
+}
 
+label#interm, label#begi, label#advanc{
+  padding: 0px;
+  font-size: 10px;
+  }
 }

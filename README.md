@@ -15,5 +15,10 @@ The live site can be found here -[link](https://rhogand.github.io/Riding-Centre/
         *Gallery
         *Contact    
 *Testing
-*Credits       
-#Design 
+*Credits   
+
+# Design 
+
+Some of the features of the design have been inspired by  The Love  Running Projects. The code for the footer and hero image has been taken from that project.
+The scheme colour selected is based on the hero image. The scheme colour has a similarity to the colour found on the hero image and the logo. To create the website with a sense of harmony while navigating.
+I have aimed to create a clean-looking website with a balance between colours, images and functionality.

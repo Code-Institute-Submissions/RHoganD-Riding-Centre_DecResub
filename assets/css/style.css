@@ -174,8 +174,7 @@ a.book-btn{
   
 h2.title{
  font-size: 24px;
- color:var(--font-light);
- padding-top: 15px;
+  padding-top: 15px;
   }
   
 p.title{
@@ -188,7 +187,7 @@ p.title{
  }
   
 .title strong{
- color: var(--primary-color);
+ color: #fff;
  font-weight: 300;
  line-height: 22px;
  } 
@@ -249,6 +248,7 @@ section .banner{
  background-size: cover;
  height: 550px;
  text-align: center;
+
   }
 
  .community h2{
@@ -550,7 +550,6 @@ button.reset{
 
  .descrip ul{
   font-size: 13.5px;
-  
   }
 
 textarea#message{
@@ -587,7 +586,6 @@ label#begi, label#interm, label#advanc{
 
 input#advance, input#intermediate, input#beginner{
 width: 11.5px;
-
 }
  
 .descrip h2{
@@ -597,7 +595,7 @@ width: 11.5px;
   
  .community span{
   color: #ad773e;
-        }
+  }
   
 .bconfirm h2{
   margin-top: 20px;
@@ -605,30 +603,29 @@ width: 11.5px;
 }
 
 
-  @media screen and (max-width: 1224px) {
-
+@media screen and (max-width: 1224px) {
 textarea#message{
 width: 320px;
 }
 }
 
 
- @media screen and (max-width: 1190px) {  
+@media screen and (max-width: 1190px) {  
 
-  textarea#message{
-    width: 300px;
+textarea#message{
+   width: 300px;
   }
 
-  label#interm, label#begi, label#advanc{
-    padding: 0px;
-    font-size: 10px;
-    }
+label#interm, label#begi, label#advanc{
+  padding: 0px;
+ font-size: 10px;
+ }
    
-  .bconfirm h2{
+ .bconfirm h2{
     margin-top: 20px;
   }
 
-  label#habi, label#active{
+ label#habi, label#active{
     font-size: 13.5px;
   }
 

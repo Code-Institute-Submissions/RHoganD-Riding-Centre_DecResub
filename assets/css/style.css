@@ -36,16 +36,7 @@ h2{
   margin-bottom: 1.125em;
   } 
 
- /* .navbar{
-  background-color: var(--other-color);
-  color: #fff;
-  justify-content: space-between;
-  top: 0;
-  display: flex;
-  } */
-
-
-  .navbar{
+ .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,16 +44,7 @@ h2{
     color: #fff;  
     }
 
-/* .navbar-menu{
- display: flex;
- align-itemS: center;
- font-size: 20px;
- font-family: 'Gentium Book Basic';
- text-align: left;
- padding-right: 25px;
-  } */
-
-  .navbar-menu{
+    .navbar-menu{
     display: flex;
     align-itemS: center;
     margin:0;
@@ -72,42 +54,6 @@ h2{
     text-align: left;
     padding-right: 25px;
      }
-/* 
-.nav-list{
-list-style-type: none;
-}
-    
-.nav-list .nav-links{
-display: inline-block;
-padding: 20px 10px;
-}
-    
-.navbar a{
-color: #fff;
-text-decoration: none;
-}
-    
-.navbar a:hover{
-color: #bebebe;
-transition: ease-in 300ms;
- }     
- 
-.navbar img{
-  width: 170px;
-  height: 150px;
-  margin-left: 25px;
-}
-
-.menu{
-  display: none;
-  }
-  
- .menu-line{
-  width: 20px;
-  height: 3px;
-  background-color: #fff;
-  margin-bottom: 4px;
-  } */
 
   .navbar img{
     width: 170px;
@@ -838,35 +784,6 @@ button.reset, button.sub{
 }
 
 @media screen and (max-width: 860px) {
-
-  /* .navbar{
-    flex-direction: column;
-    position: relative;
-    }
-
-  .navbar .branding{
-   width: 100%;
-  }
-
-  .menu {
-    display: block;
-    position: absolute;
-    right: 15px;
-    top: 15px;
-}
-.nav-list{
-  list-style-type: none;
-  width: 100%;
-  text-align: center;
-  padding-top: 10px;
-  display: block;  
-}
-
-.nav-list .nav-links{
-  display: block;
-  border-top: 1px solid #fff;
-} */
-
 .toggle-button{
   display: flex;
 } 

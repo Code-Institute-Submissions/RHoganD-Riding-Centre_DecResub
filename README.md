@@ -15,8 +15,12 @@ The live site can be found here -[Riding Center](https://rhogand.github.io/Ridin
         * Gallery
         * Contact    
 * Testing
-* Credits   
-
+* Technologies Used
+* Languages Used
+* Frameworks, Libraries & Programs Used
+* Deployment
+* Credits 
+* Acknowledgments
 # Design 
 
 Some of the features of the design have been inspired by  The Love  Running Projects. The code for the footer and hero image has been taken from that project.
@@ -89,28 +93,40 @@ The form shares the same characteristics as the booking page, only differing in 
  ![html error](/asset/images/Readme-Images/error%20%20html%20validation.png)
    * It said that the frameborder attribute on the iframe element ID is obsolete so after removing the frameborder attribute in the HTML code, it returned with no errors.
 
-* Unfixed Bugs
+* Fixed Bugs
 
-  The hamburger menu that I manage to create thanks to the Youtube videos. Did not perform as expected because of the error from Javascript. Tired to fix it as it was an undefine type error according to Chrome Develops tools, stating that the "toggle" cannot read the unknown class. I use website that helps to analyse the Javascript code, with no results. 
-  This error will be for the next course in Javascript. Where I will have a better understanding debugging Javascript.
+  The hamburger menu was not working as expected. However this has been fixed and the Javascript code is working as intended.
 
-# Acknowledgments
-The site was completed as a part of a Full Stack Software Developer Diploma at the Code Institute and is my Portfolio Project 1. I would like to thank my mentor Mitko, who has been a great help in thi sproject. 
-Luke Walters, is always there when needed. His help is invaluable.
-Mike Ralph,  for the insight, provided with the responsiveness
-Thanks to all of you for making this submission possible.
+  # Technologies Used
+# Main Languages Used
+* HTML5
+* CSS3
 
+# Frameworks, Libraries & Programs Used
+* Google Fonts - for the font families: Gentium Book, Poppins, &  San-serif was used as a default font.
+* Font Awesome - to add icons to the social links in the footer element and throught the site.
+* GitPod - to creat my html files & styling sheet before pushing the project to Github.
+* GitHub - to store my repository for submission.
+* Am I Responsive? - to ensure the project looked good across all devices.
 # Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 *  In the GitHub repository, navigate to the Settings tab. On the left-hand side under GitHub Copilot, select Pages.
 *  From the source section drop-down menu, select the Master Branch. Once the master branch has been selected, the page will     
    display a notification about the data being saved. 
-* After that, you will see the link of your deployed project that indicates successful deployment.
+*  After that, you will see the link of your deployed project that indicates successful deployment.
+The live link can be found [here](https://rhogand.github.io/Riding-Centre/)
 # Credits
 ## Content
  * The font used came from Google Fonts
  * The icons in the footer were taken from Font Awesome
  * The booking Form were taken from the Youtube video 
+ * The design of the gallary iimages was taken from the love running project.
  ## Media
  * The images used for the gallery page were taken from pexels.
+
+ # Acknowledgments
+The site was completed as a part of a Full Stack Software Developer Diploma at the Code Institute and is my Portfolio Project 1. I would like to thank my mentor Mitko, who has been a great help in thi sproject. 
+Luke Walters, is always there when needed. His help is invaluable.
+Mike Ralph,  for the insight, provided with the responsiveness
+Thanks to all of you for making this submission possible.

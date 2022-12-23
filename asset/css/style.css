@@ -9,12 +9,13 @@ box-sizing: border-box;
 :root{
     --primary-color:#00c0ee;    
     --secondary-color:#f4e6f6;
-    --font-light: #808080;
+    --font-light: #18191a;;
     --other-color:#063c49;
 }
 
 body {
     font-family:'Gentium Book', Poppins, sans-serif;
+    background-color: #fffffb;
     margin: 0;
     padding: 0;
 }
@@ -27,7 +28,7 @@ h2{
   }
   
   p {
-  color: var(--font-light);
+  /* color: var(--font-light);  */
   font-family: Poppins;
   font-weight: 400;
   font-size: 1em;
@@ -164,7 +165,7 @@ a.book-btn{
 
 .about-content{
   text-align: center;
-  }
+    }
   
  .about-content span.quote{
   font-style: italic;
@@ -173,8 +174,7 @@ a.book-btn{
   color: var(--font-light);
   font-size: 1.2em;
   }
-  
-        
+          
  /*Banner cros page info */
 .banner{
  background-color: #277487;

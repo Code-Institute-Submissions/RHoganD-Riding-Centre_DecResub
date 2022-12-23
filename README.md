@@ -19,7 +19,7 @@ The live site can be found here -[Riding Center](https://rhogand.github.io/Ridin
 * Languages Used
 * Frameworks, Libraries & Programs Used
 * Deployment
-* Credits 
+* Credits
 * Acknowledgments
 # Design 
 

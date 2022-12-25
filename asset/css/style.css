@@ -718,7 +718,7 @@ font-size: 14px;
 
 
 textarea#message{
-width: 280px;
+width: 250px;
 }
 
 .descrip h2{
@@ -880,7 +880,7 @@ label#begi, label#interm, label#advanc{
 }
 
 textarea#message{
-  width: 470px;
+  width: 460px;
 }
 
 input#fname.input, input#email.input{

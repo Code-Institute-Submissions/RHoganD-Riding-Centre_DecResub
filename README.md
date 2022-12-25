@@ -1,8 +1,7 @@
 # Riding Centre
 ![Responsive screenshot](/asset/images/Readme-Images/Responsive-image.png)
 # The purpose with this project
-The Riding Centre is a family business that loves horses and wants to encourage and share with the community who may not yet know anything about the horses and the gratifying experience that this represents.
-This site will target individuals who have not yet tried to ride a horse and might be looking for information on how to book a riding session or learn how to ride a horse.
+The purpose of this project is too show how to ride a horse step by step and the different activities that can be done with the horse. This fictional site will target individuals who have not yet tried to ride a horse and might be looking for information on how to book a riding session or learn how to ride a horse. The Riding Centre is a family business that loves horses and wants to encourage and share with the community who may not yet know anything about the horses and the gratifying experience that this represents.
 >Horses generate empathy with humans that other animals do not.
 The live site can be found here -[Riding Center](https://rhogand.github.io/Riding-Centre/)
 # Table of Content

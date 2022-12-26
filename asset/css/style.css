@@ -119,7 +119,7 @@ h2{
 /* Hero image section */
 
 #hero-section{
-  background: url(../images/hero-horse-riding3.png) no-repeat center center;
+  background: url(../images/hero-horse-riding3.jpg) no-repeat center center;
  background-size: cover;
  height: 100vh;
  display: flex;

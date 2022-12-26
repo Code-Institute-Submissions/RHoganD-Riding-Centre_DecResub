@@ -628,9 +628,11 @@ width: 11.5px;
 
 
 @media screen and (max-width: 1224px) {
-textarea#message{
+
+  textarea#message{
 width: 320px;
 }
+
 }
 
 
@@ -671,8 +673,6 @@ font-size: 14px;
 }
 }
 
-
-
 @media screen and (max-width: 1110px) {
 
   textarea#message{
@@ -683,7 +683,6 @@ font-size: 14px;
     width: 250px;
   }
   
-   
   .inrbox{
   
     display:inline-table;
@@ -710,12 +709,9 @@ font-size: 14px;
  button.reset, button.sub{
   width: 265px;
 }
-
 }
 
-
  @media screen and (max-width: 1095px) {
-
 
 textarea#message{
 width: 250px;
@@ -737,7 +733,6 @@ form{
   display:block;
   flex-direction: column;
 }
-
 
 .inpbox{
 width: 100%;
@@ -766,8 +761,6 @@ button.reset, button.sub{
   }
 
  @media screen and (max-width: 956px){
-
-
  .descrip ul{
   font-size: 12.5px;
   padding: 0 0 0 14px;

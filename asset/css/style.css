@@ -259,6 +259,15 @@ section.vi-section {
  margin-bottom: 50px;
 }
 
+#video{
+  width: 580px; 
+  height: 350px;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
 section .banner{
  width: 100%;
  padding-bottom: 15px;

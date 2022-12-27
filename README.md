@@ -85,6 +85,13 @@ The form shares the same characteristics as the booking page, only differing in 
 
  ![lighthouse](/asset/images/Readme-Images/lighthouse.png)   
 
+ * Webpage Testing https://www.webpagetest.org/
+      ![webtest](/asset/images/Readme-Images/webtest.png)
+      ![webtest](/asset/images/Readme-Images/webtest1.png)
+
+ * PageSpeed Insights https://pagespeed.web.dev/
+    ![speed](/asset/images/Readme-Images/speed.png)
+    
  * Bugs Fixed
      * HTML Validation
  After putting the website through HTML Validation, I was presented with the following errors below:

@@ -279,7 +279,7 @@ section .banner{
 .community{
  background: url(../images/Pony-Day-The-Grove.jpg) no-repeat center center;
  background-size: cover;
- height: 550px;
+ height: 450px;
  text-align: center;
 
   }
@@ -974,6 +974,10 @@ label#time, label#date, label#name, label#email{
 .bconfirm h2{
   margin-top: 20px;
  }
+#video{
+  width: 450px;
+  height: 250px;
+}
 
 }
 
@@ -994,7 +998,6 @@ input .inrbox{
  }
 
  @media screen and (max-width: 551px) {
-
 
 .logo{
   margin-top: 10px;
@@ -1123,6 +1126,11 @@ input{
  padding-top: 5px;
  }
 
+ #video{
+  width: 350px;
+  height: 200px;
+}
+
 .bringback-home{
   font-size: 10px;
   padding-top: 10px;
@@ -1179,5 +1187,9 @@ input#beginner, input#intermediate, input#advance{
 label#interm, label#begi, label#advanc{
   padding: 0px;
   font-size: 10px;
+  }
+  #video{
+    width: 250px;
+    height: 150px;
   }
 }

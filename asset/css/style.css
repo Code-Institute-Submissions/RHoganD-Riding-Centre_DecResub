@@ -18,8 +18,8 @@ padding: 0;
 body {
     font-family:'Gentium Book', Poppins, sans-serif;
     background-color: #fffffb;
-    /* margin: 0;
-    padding: 0; */
+    align-content: center;
+    align-items: center;
 }
 
 h2{
@@ -262,12 +262,11 @@ section.vi-section {
 }
 
 #video{
-  width: 580px; 
-  height: 350px;
-  display: flex;
+ width: 580px; 
+ height: 350px;
+ display: flex;
  justify-content: center;
  align-items: center;
-
 }
 
 section .banner{
@@ -283,16 +282,18 @@ section .banner{
  background-size: cover;
  height: 450px;
  text-align: center;
-
   }
 
- .community h2{
-  color: aquamarine;
-  }
-
-.community p{
- color: aquamarine; 
- } 
+.community h2, h3, h4{ 
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+ }
+  
+.community h3, h4{
+ font-size: 18px;
+ font-family: 'Gentium Book Basic';
+ font-weight: 400;
+ }
 
 .community a{
  color:#fff;
@@ -628,10 +629,6 @@ width: 11.5px;
     margin-bottom: 15px;
   }
   
- .community span{
-  color: #ad773e;
-  }
-  
 .bconfirm h2{
   margin-top: 20px;
  }
@@ -695,13 +692,12 @@ font-size: 14px;
   }
   
   .inrbox{
-  
     display:inline-table;
   }
-  input#beginner, input#intermediate, input#advance{
+
+input#beginner, input#intermediate, input#advance{
     width: 8px;
 }
-
 
 .descrip h2{
   font-size: 22px;
@@ -768,8 +764,7 @@ label#acive, label#habi{
 button.reset, button.sub{
   width: 270px;
 }
-
-  }
+}
 
  @media screen and (max-width: 956px){
  .descrip ul{
@@ -777,11 +772,9 @@ button.reset, button.sub{
   padding: 0 0 0 14px;
 }
 
-
- .quote p{
+.quote p{
  font-size: 11px;
  }
-
 }
 
 @media screen and (max-width: 860px) {
@@ -979,7 +972,7 @@ label#time, label#date, label#name, label#email{
 #video{
   width: 450px;
   height: 250px;
-  padding-left: 10px;
+  margin-left: 10px;
 }
 
 }
@@ -1157,6 +1150,10 @@ input{
 }
 @media screen and (max-width: 480px){
 
+.about-content p{
+font-size: 12px;
+} 
+
 textarea#message{
   width: 250px;
 } 
@@ -1194,5 +1191,6 @@ label#interm, label#begi, label#advanc{
   #video{
     width: 250px;
     height: 150px;
+    margin-left: 10px;
   }
 }

@@ -759,7 +759,12 @@ button.reset, button.sub{
 
 .quote p{
  font-size: 11px;
- }
+  }
+
+  #video {
+    margin-left: 20px;
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 860px) {
@@ -957,7 +962,7 @@ label#time, label#date, label#name, label#email{
 #video{
   width: 450px;
   height: 250px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 }

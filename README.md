@@ -70,7 +70,8 @@ The form shares the same characteristics as the booking page, only differing in 
 # Testing
 
 * Code Validation
-    *The Riding Centre website has been tested. The code has been validated via the W3C HTML Validator,  and  W3C CSS Validator. 1 minor error was found when testing the HTML code with HTML Validation but fixed and documented below.
+    *The Riding Centre website has been tested with Samsung galaxy S22 ultra mobile phone. Also with a samsung table.
+    The code has been validated via the W3C HTML Validator,  and  W3C CSS Validator. 1 minor error was found when testing the HTML code with HTML Validation but fixed and documented below.
 
 * CSS Validation Image
 ![CSS valid](/asset/images/Readme-Images/Testing%20css.png)
